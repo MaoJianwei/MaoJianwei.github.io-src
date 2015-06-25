@@ -1,10 +1,20 @@
+﻿<!DOCTYPE html>
 <html>
-
 <head>
-<title>
-	BigMao Radio Station
-</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body, html, #allmap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=51wq7ypkRwWVtCCa3ixaevG1"></script>
 
+    <script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
     <script>
     var _hmt = _hmt || [];
     (function() {
@@ -15,14 +25,440 @@
     })();
     </script>
 
+
+
+
+
+    <title>大毛地图网页版-北邮-毛健炜</title>
+
+
+    <!-- 大毛地图网页版，基于实用性定制化的百度地图，感谢百度地图提供API支持！ 2015.06.10 -->
+
+
+
+
+
+
 </head>
-
 <body>
-
-Welcome! We are update our website...
-
-Please come back later O(∩_∩)O
-
+    <div id="allmap"></div>
 </body>
-
 </html>
+
+
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(116.364726, 39.967), 17);  // 初始化地图,设置中心点坐标和地图级别
+    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+
+    //----------------------------------------------------------------------------
+
+    var MapType = new BMap.MapTypeControl();
+    map.addControl(MapType);   //添加右上角地图类型控件
+
+
+
+    //----------------------------------------------------------------------------
+
+    // 添加带有定位的导航控件
+    var navigationControl = new BMap.NavigationControl({
+        // 靠左上角位置
+        anchor: BMAP_ANCHOR_TOP_LEFT,
+        // LARGE类型
+        type: BMAP_NAVIGATION_CONTROL_LARGE,
+        // 启用显示定位
+        enableGeolocation: false
+    });
+    map.addControl(navigationControl);
+
+
+    //----------------------------------------------------------------------------
+    var stCtrl = new BMap.PanoramaControl(); //构造全景控件
+    stCtrl.setOffset(new BMap.Size(10, 40));
+    map.addControl(stCtrl);//添加全景控件
+
+
+    //----------------------------------------------------------------------------
+
+    var Scale = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_BOTTOM_RIGHT });// 右下角，添加比例尺
+    map.addControl(Scale);
+
+
+
+    //----------------------------------------------------------------------------
+
+    // 添加定位控件
+    var geolocationControl = new BMap.GeolocationControl();
+    geolocationControl.addEventListener("locationSuccess", function (e) {
+        // 定位成功事件
+        var address = '';
+        address += e.addressComponent.province;
+        address += e.addressComponent.city;
+        address += e.addressComponent.district;
+        address += e.addressComponent.street;
+        address += e.addressComponent.streetNumber;
+        //alert("当前定位地址为：" + address);
+    });
+    geolocationControl.addEventListener("locationError", function (e) {
+        // 定位失败事件
+        //alert(e.message);
+    });
+    map.addControl(geolocationControl);
+
+    //----------------------------------------------------------------------------
+
+    function searchControl() {
+        // 默认停靠位置和偏移量
+        this.defaultAnchor = BMAP_ANCHOR_TOP_LEFT;
+        this.defaultOffset = new BMap.Size(65, 10);
+    }
+
+    // 通过JavaScript的prototype属性继承于BMap.Control
+    searchControl.prototype = new BMap.Control();
+
+
+    var local;
+    var searchTextVar;
+    function searchIn() {
+        map.clearOverlays();
+        local.searchInBounds(searchTextVar, map.getBounds());
+    }
+    // 自定义控件必须实现自己的initialize方法,并且将控件的DOM元素返回
+    // 在本方法中创建个div元素作为控件的容器,并将其添加到地图容器中
+    searchControl.prototype.initialize = function (map) {
+        // 创建一个DOM元素
+        var searchDiv = document.createElement("div");
+        var keyInput = document.createElement("input");
+        keyInput.type = "text";
+        keyInput.id = "searchText";
+        searchDiv.appendChild(keyInput);
+
+
+        var searchButton = document.createElement("input");
+        searchButton.setAttribute("type", "button");
+        searchButton.setAttribute("value", "全市搜索");
+        searchButton.id = "searchB";
+
+        searchButton.onclick = function (e) {
+            map.removeEventListener("dragend", searchIn);//取消视野范围搜索的事件响应
+
+            searchTextVar = document.getElementById('searchText').value;
+
+            map.clearOverlays();
+            var local = new BMap.LocalSearch(map, {
+                renderOptions: { map: map }
+            });
+            local.search(searchTextVar);
+        }
+
+        var searchInBoundsButton = document.createElement("input");
+        searchInBoundsButton.setAttribute("type", "button");
+        searchInBoundsButton.setAttribute("value", "视野范围内搜索");
+        searchInBoundsButton.id = "searchInBoundsB";
+
+
+        searchInBoundsButton.onclick = function (e) {
+            searchTextVar = document.getElementById('searchText').value;
+
+            map.clearOverlays();
+
+            local = new BMap.LocalSearch(map, {
+                renderOptions: { map: map }
+            });
+            local.searchInBounds(searchTextVar, map.getBounds());
+            map.addEventListener("dragend", searchIn);
+            //map.addEventListener("zoomend",searchIn); 这个功能反应太灵敏了…………
+        }
+
+        searchDiv.appendChild(searchButton);
+        searchDiv.appendChild(searchInBoundsButton);
+
+
+        var searchResultPanel = document.createElement("div");
+        searchResultPanel.setAttribute("id", "searchResultP");
+        searchResultPanel.setAttribute("style", "border:1px solid #C0C0C0;width:150px;height:auto; display:none;");
+
+        // 添加DOM元素到地图中
+        map.getContainer().appendChild(searchDiv);
+        map.getContainer().appendChild(searchResultPanel);
+
+        var autoType = new BMap.Autocomplete(    //建立一个自动完成的对象
+			{
+			    "input": "searchText"
+			, "location": map
+			});
+        autoType.addEventListener("onconfirm", function autoTTTT(e) {    //鼠标点击下拉列表后的事件
+            var _value = e.item.value;
+            var myValue = _value.province + _value.city + _value.district + _value.street + _value.business;
+            document.getElementById("searchResultP").innerHTML = "onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+
+            map.clearOverlays();    //清除地图上所有覆盖物
+            function myFun() {
+                var pp = local.getResults().getPoi(0).point;    //获取第一个智能搜索的结果
+                map.centerAndZoom(pp, 18);
+                map.addOverlay(new BMap.Marker(pp));    //添加标注
+            }
+            var local = new BMap.LocalSearch(map, { //智能搜索
+                onSearchComplete: myFun
+            });
+            local.search(myValue);
+        });
+
+
+        // 将DOM元素返回
+        return searchDiv;
+    }
+    var searchCtrl = new searchControl();// 创建控件
+
+    //------------------------------------------------------------------------
+
+    function RouteTipControl() {
+        // 默认停靠位置和偏移量
+        this.defaultAnchor = BMAP_ANCHOR_TOP_LEFT;
+        this.defaultOffset = new BMap.Size(65, 10);
+    }
+
+    // 通过JavaScript的prototype属性继承于BMap.Control
+    RouteTipControl.prototype = new BMap.Control();
+
+    // 自定义控件必须实现自己的initialize方法,并且将控件的DOM元素返回
+    // 在本方法中创建个div元素作为控件的容器,并将其添加到地图容器中
+    RouteTipControl.prototype.initialize = function (map) {
+        // 创建一个DOM元素
+        var RouteTipDiv = document.createElement("div");
+
+        var RouteTipText = document.createElement("input");
+        RouteTipText.setAttribute("type", "button");
+        RouteTipText.setAttribute("value", "wait");
+        RouteTipText.id = "RouteTipB";
+
+        RouteTipDiv.appendChild(RouteTipText);
+
+        // 添加DOM元素到地图中
+        map.getContainer().appendChild(RouteTipDiv);
+        // 将DOM元素返回
+        return RouteTipDiv;
+    }
+    var routeTipCtrl = new RouteTipControl();// 创建控件
+
+    //------------------------------------------------------------------------
+
+    var transit;
+
+    function selectPolicyRoute() {
+        // 默认停靠位置和偏移量
+        this.defaultAnchor = BMAP_ANCHOR_TOP_LEFT;
+        this.defaultOffset = new BMap.Size(65, 35);
+    }
+
+    // 通过JavaScript的prototype属性继承于BMap.Control
+    selectPolicyRoute.prototype = new BMap.Control();
+
+    // 自定义控件必须实现自己的initialize方法,并且将控件的DOM元素返回
+    // 在本方法中创建个div元素作为控件的容器,并将其添加到地图容器中
+    selectPolicyRoute.prototype.initialize = function (map) {
+        // 创建一个DOM元素
+        var selectDiv = document.createElement("div");
+        selectDiv.setAttribute("id", "selectD");
+
+        var selectPolicy = document.createElement("select");
+        selectPolicy.id = "selectP";
+
+        var optionObj = new Option("最少时间", 0);
+        selectPolicy.appendChild(optionObj);
+        optionObj = new Option("最少换乘", 1);
+        selectPolicy.appendChild(optionObj);
+        optionObj = new Option("最少步行", 2);
+        selectPolicy.appendChild(optionObj);
+        optionObj = new Option("不乘地铁", 3);
+        selectPolicy.appendChild(optionObj);
+
+        selectDiv.appendChild(selectPolicy);
+
+        selectPolicy.onchange = function (e) {
+            map.clearOverlays();
+
+            var routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME, BMAP_TRANSIT_POLICY_LEAST_TRANSFER, BMAP_TRANSIT_POLICY_LEAST_WALKING, BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
+
+            var i = document.getElementById("selectP").value;
+
+            transit = new BMap.TransitRoute(map, {
+                renderOptions: { map: map },
+                policy: 0
+            });
+            transit.setPolicy(routePolicy[i]);
+            transit.search(p1, p2);
+        }
+        selectDiv.appendChild(selectPolicy);
+
+        // 添加DOM元素到地图中
+        map.getContainer().appendChild(selectDiv);
+        // 将DOM元素返回
+        return selectDiv;
+    }
+    var selectCtrl = new selectPolicyRoute();// 创建控件
+
+    //------------------------------------------------------------------------
+
+    var p1;
+    var p2;
+    var chooseRoute = 0;
+    var isRouting = false;
+
+    function initRoute() {
+        chooseRoute = 0;
+        isRouting = false;
+    }
+
+    function Route(e) {
+
+        if (0 == chooseRoute) {
+            p1 = new BMap.Point(e.point.lng, e.point.lat);
+            chooseRoute = 1;
+            //alert("第一个点");
+            document.getElementById("RouteTipB").value = "请选“终点”，若两点太近可能无法寻路";
+        }
+        else {
+            p2 = new BMap.Point(e.point.lng, e.point.lat);
+            //alert("第二个点");
+            document.getElementById("RouteTipB").value = "开始为您寻一条线路，若有结果可点击线路上各节点查看详情";
+            map.addControl(selectCtrl);
+
+            map.clearOverlays();
+            transit = new BMap.TransitRoute(map, {
+                renderOptions: { map: map },
+                policy: 0
+            });
+            transit.setPolicy(BMAP_TRANSIT_POLICY_LEAST_TIME);//默认找最少时间
+            transit.search(p1, p2);
+            chooseRoute = 0;
+            isRouting = false;
+            //alert("寻路结束");
+            map.removeEventListener("click", Route);
+        }
+    }
+
+
+    //------------------------------------------------------------------------
+
+
+
+    var myDis = new BMapLib.DistanceTool(map);
+
+    var menu = new BMap.ContextMenu();
+
+    var showSearch = false;
+    var showControl = true;
+
+    function initSearch() {
+        showSearch = false;
+    }
+
+    var txtMenuItem = [
+		{
+		    text: '测距',
+		    callback: function () {
+		        myDis.open();
+		    }
+		},
+		{
+		    text: '单击/取消 选路 ',
+		    callback: function () {
+		        if (isRouting == false) {
+		            map.removeEventListener("dragend", searchIn);
+		            map.removeControl(searchCtrl);
+		            initSearch();
+
+
+		            // 添加到地图当中
+		            map.addControl(routeTipCtrl);
+		            document.getElementById("RouteTipB").value = "请点地图选“起点”";
+		            map.removeControl(selectCtrl);//selectCtrl 需要在选定起终点之后再显示
+
+		            map.addEventListener("click", Route);
+		            map.removeEventListener("dragend", searchIn);
+		            isRouting = true;
+		        }
+		        else {
+		            map.removeControl(routeTipCtrl);
+		            map.removeControl(selectCtrl);
+
+		            map.removeEventListener("click", Route);
+		            initRoute();
+
+		            isRouting = false;
+		        }
+		    }
+		},
+		{
+		    text: '显示/隐藏 搜索',
+		    callback: function () {
+		        if (showSearch == false) {
+		            // 添加到地图当中
+		            map.removeControl(routeTipCtrl);
+		            map.removeControl(selectCtrl);
+		            initRoute();
+		            map.removeEventListener("click", Route);
+
+		            map.addControl(searchCtrl);
+		            showSearch = true;
+		        }
+		        else {
+		            map.removeEventListener("dragend", searchIn);
+		            //map.removeEventListener("zoomend",searchIn); 这个功能反应太灵敏了…………
+		            map.removeControl(searchCtrl);
+		            //ac.removeEventListener("onconfirm", accc(e));
+		            initSearch();
+		            showSearch = false;
+		        }
+		    }
+		},
+		{
+		    text: '显示/隐藏 控件',
+		    callback: function () {
+		        if (showControl == true) {
+		            map.removeControl(MapType);
+		            map.removeControl(navigationControl);
+		            map.removeControl(stCtrl);
+		            map.removeControl(Scale);
+		            map.removeControl(geolocationControl);
+		            showControl = false;
+		        }
+		        else {
+		            map.addControl(MapType);
+		            map.addControl(navigationControl);
+		            map.addControl(stCtrl);
+		            map.addControl(Scale);
+		            map.addControl(geolocationControl);
+		            showControl = true;
+		        }
+		    }
+		},
+        {
+            text: '清除标记、功能',
+            callback: function () {
+                map.clearOverlays();
+
+                map.removeControl(routeTipCtrl);
+                map.removeControl(selectCtrl);
+                map.removeEventListener("click", Route);
+                initRoute();
+
+                map.removeControl(searchCtrl);
+                map.removeEventListener("dragend", searchIn);
+                initSearch();
+            }
+        }
+    ];
+    for (var i = 0; i < txtMenuItem.length; i++) {
+        menu.addItem(new BMap.MenuItem(txtMenuItem[i].text, txtMenuItem[i].callback, 100));
+    }
+    map.addContextMenu(menu);
+
+
+
+</script>
+
