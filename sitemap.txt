@@ -1,2 +1,2 @@
-﻿maojianwei.github.io/index.html
-maojianwei.github.io/maoBaiduMap.html
+﻿http://maojianwei.github.io/index.html
+http://maojianwei.github.io/maoBaiduMap.html
