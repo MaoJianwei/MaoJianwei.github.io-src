@@ -46,7 +46,7 @@ timezone:      null
 title: Jekyll Theme
 description: Just another Jekyll theme design and code by zhanxin.info.
 keywords: Jekyll Theme
-url: /
+url: /maojianwei.github.io
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
@@ -116,7 +116,7 @@ disqus:
 #################################### global configure #######################################
 
 username: minixalpha
-baseurl: /
+baseurl: /maojianwei.github.io
 markdown: redcarpet
 safe: false
 highlighter: pygments
