@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigMao Radio Station</title>
+    <description>MaoJianwei</description>
+    <link>http://maojianwei.github.io//StrayBirds/</link>
+    <atom:link href="http://maojianwei.github.io//StrayBirds/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 04 Jul 2015 14:03:29 +0000</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 14:03:29 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Mao Blog</title>
+        <description>&lt;h3&gt;&lt;strong&gt;SDN, Coding, and my Life!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;My Software Publish Station&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1jGIMn8E&quot;&gt;【大毛软件发布站】 Innovated in China&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4&gt;My First SDN Article&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sdnlab.com/12252.html&quot;&gt;《我与SDN的缘分：一名初学者的学习之路与心得》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2015 16:28:00 +0000</pubDate>
+        <link>http://maojianwei.github.io//StrayBirds/2015/07/04/MaoBlog/</link>
+        <guid isPermaLink="true">http://maojianwei.github.io//StrayBirds/2015/07/04/MaoBlog/</guid>
+        
+        
+        <category>other</category>
+        
+      </item>
+    
+  </channel>
+</rss>
