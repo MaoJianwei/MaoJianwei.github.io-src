@@ -27,3 +27,5 @@ highlighter: pygments
 timezone: Asia/Beijing
 # highlighter: rouge
 # highlighter: false
+gems:
+  - jekyll-sitemap
