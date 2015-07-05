@@ -12,7 +12,7 @@ markdown: Redcarpet
 #   Google search results) and in your feed.xml site description.
 
 # baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://maojianwei.github.io/ # the base hostname & protocol for your site
+url: http://maojianwei.github.io # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: MaoJianwei
 permalink: /:year/:month/:day/:title/
