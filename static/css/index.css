@@ -55,7 +55,7 @@ nav{
 	border-radius: 0;
 }
 .navbar-nav li{
-	width: 95px;
+	width: 110px;
 	text-align: center;
 }
 
@@ -339,9 +339,9 @@ blockquote:last-child {
 
 }
 #fall ul{
-	margin: 0 10px;
+	margin: 0 8px;
 	padding: 0;
-	width: 240px;
+	width: 246px;
 	/*background-color: red;*/
 	display: inline-block;
 	vertical-align: top;
@@ -393,7 +393,7 @@ blockquote:last-child {
 }
 #fall .head{
 	font-size: 16px;
-	text-align: left;
+	text-align: center;
 	margin: 0 10px;
 	padding: 10px 0 5px 0;
 	border-bottom: 1px dotted #ddd;
@@ -402,7 +402,7 @@ blockquote:last-child {
 #fall .description{
 	text-align: left;
 	padding: 5px 10px 10px 10px;
-	text-indent: 2em;
+	/*text-indent: 2em;*/
 }
 #fall a:link {color: #7676AC}		/* 未访问的链接 */
 #fall a:visited {color: #715584}	/* 已访问的链接 */
