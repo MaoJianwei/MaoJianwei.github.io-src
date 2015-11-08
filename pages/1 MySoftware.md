@@ -5,7 +5,7 @@ title: 原创软件
 permalink: /MaoSoftware/
 icon: glyphicon-play
 
-noteTitle: 最新版本：1.0&#10;发布日期：2015.03.07
+noteTitle: 最新版本：1.3&#10;发布日期：2015.11.08
 faxTitle: 最新版本：1.0&#10;发布日期：2015.06.06
 fileTransFerTitle: 最新版本：1.0&#10;发布日期：2015.03.21
 sleepReminderTitle: 最新版本：1.0&#10;发布日期：2015.07.04
