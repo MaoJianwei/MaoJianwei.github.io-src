@@ -92,7 +92,7 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 	<ul>
 		<li>
 			<a href="{{site.url}}/resources/MySoftware/EXE/大毛地图.exe">
-				<img src="{{site.url}}/resources/MySoftware/picture/map.png" title="{{ page.mapTitle }}" width="106" height="106">
+				<img src="{{site.url}}/resources/MySoftware/picture/map.jpg" title="{{ page.mapTitle }}" width="106" height="106">
 			</a>
 			<div class="head">
 				<a href="{{site.url}}/resources/MySoftware/EXE/大毛地图.exe" title="{{ page.mapTitle }}">
