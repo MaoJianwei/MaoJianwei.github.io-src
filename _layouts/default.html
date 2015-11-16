@@ -23,16 +23,16 @@
 
     {% include footer.html %}
 
-<!-- 在新窗口中打开 -->
+  <!-- 在新窗口中打开外链，如北邮官网 -->
    <script type="text/javascript">
-  //   function addBlankTargetForLinks () {
-  //     $('a[href^="http"]').each(function(){
-  //         $(this).attr('target', '_blank');
-  //     });
-  //   }
-  //   $(document).bind('DOMNodeInserted', function(event) {
-  //     addBlankTargetForLinks();
-  //   });
+    function addBlankTargetForLinks () {
+      $('a[href^="http"]').each(function(){
+          $(this).attr('target', '_blank');
+      });
+    }
+    $(document).bind('DOMNodeInserted', function(event) {
+      addBlankTargetForLinks();
+    });
   </script>
   </body>
 
