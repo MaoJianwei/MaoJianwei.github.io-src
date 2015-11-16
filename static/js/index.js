@@ -50,15 +50,6 @@ function fixFooterInit() {
 function fixFooter(footerHeight, footerMarginTop) {
     var windowHeight = $(window).height();
     var contentHeight = $('body>.container').outerHeight() + $('body>.container').offset().top + footerHeight + footerMarginTop;
-    // console.log("window---"+windowHeight);
-    // console.log("$('body>.container').outerHeight()---"+$('body>.container').outerHeight() );
-    // console.log("$('body>.container').height()---"+$('body>.container').height() );
-    // console.log("$('#main').height()--------"+$('#main').height());
-    // console.log("$('body').height()--------"+$('body').height());
-    //console.log("$('#main').html()--------"+$('#main').html());
-    // console.log("$('body>.container').offset().top----"+$('body>.container').offset().top);
-    // console.log("footerHeight---"+footerHeight);
-    // console.log("footerMarginTop---"+footerMarginTop);
     console.log(contentHeight);
     if (contentHeight < windowHeight) {
         $('footer').addClass('navbar-fixed-bottom');
@@ -77,7 +68,6 @@ function getFooterMarginTop() {
     var margintop = $('footer').css('marginTop');
     var patt = new RegExp("[0-9]*");
     var re = patt.exec(margintop);
-    // console.log(re[0]);
     return re[0];
 }
 
@@ -130,9 +120,7 @@ function backToTop() {
  */
 function generateContent() {
 
-    // console.log($('#markdown-toc').html());
     if (typeof $('#markdown-toc').html() === 'undefined') {
-        // $('#content .content-text').html('<ul><li>文本较短，暂无目录</li></ul>');
         $('#content').hide();
         $('#myArticle').removeClass('col-sm-9').addClass('col-sm-12');
     } else {
@@ -143,5 +131,4 @@ function generateContent() {
             'data-offset': '50'
         });*/
     }
-    console.log("myAffix!!!");
 }
