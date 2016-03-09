@@ -21,15 +21,9 @@ url: http://maojianwei.github.io # the base hostname & protocol for your site
 github_username: MaoJianwei
 permalink: /:year/:month/:day/:title/
 excerpt_separator: "\n\n\n"
-# Build settings
-#markdown: kramdown
-#baseurl: /
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
 
 timezone: Asia/Beijing
-# highlighter: rouge
+highlighter: rouge
 # highlighter: false
 gems:
   - jekyll-sitemap
