@@ -26,7 +26,7 @@ excerpt_separator: "\n\n\n"
 #baseurl: /
 # highlight
 # 本地用rouge, github上用pygments
-highlighter: pygments
+# highlighter: pygments
 
 timezone: Asia/Beijing
 # highlighter: rouge
