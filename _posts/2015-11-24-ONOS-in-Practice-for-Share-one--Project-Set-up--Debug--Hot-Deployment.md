@@ -119,6 +119,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 > * pom.xml – Maven项目文件
 > * AppComponent.java – 模块文件
 > * AppComponentTest.java – Maven构建模块时，用于测试模块的文件
+> 
 > （自动生成的AppComponent.java可以删除，换成我们自己的文件就好，本文暂且使用它。）
 
 　　AppComponentTest.java可以在构建模块时，通过参数 –DskipTests 跳过测试，我暂时还没有掌握怎么改写它，暂不改动，大家也可以予以删除。不过如果大家要开发作为正式使用的模块，还是要学习一下如何编写它比较好。
@@ -244,21 +245,21 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 　　
 
 > ### 构建完成！我们刚才构建完以后，发生了哪些变化呢：
+> 
 > 1) 模块目录下多了target文件夹，.oar文件就是我们的ONOS应用模块文件：
 > oar文件可单独、直接用于模块的远程热部署
-> 　　
+> 
 > ![Mao]({{site.url}}/resources/picture/2015/11/23.png) <br />
-> 　　
-> 　　
-> 　　
+> 
+> 
 > 2) 项目被安装到本地Maven仓库，信息同时加入仓库的repository.xml文件：
-> 　　
+> 
 > ![Mao]({{site.url}}/resources/picture/2015/11/24.png) <br />
-> 　　
+> 
 > ![Mao]({{site.url}}/resources/picture/2015/11/25.png) <br />
-> 　　
+> 
 > ![Mao]({{site.url}}/resources/picture/2015/11/26.png) <br />
-> 　　
+> 
 
 　　
 
@@ -413,7 +414,9 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 　　
 
 ## （7）思考 & 展示
+
 ### 1.我的疑惑：
+
 　　整个开发过程似乎都不需对onos/feature/feature.xml文件进行修改，反而onos/apps里面的模块构建以后是存档在本地Maven仓库里的（~/.m2/repository），而且他们的装载也不依赖于onos源代码文件夹了。
 
 　　于是我想找到Karaf是如何找到我们的模块的，我从onos-karaf入口开始，到onos-setup-karaf，再到karaf/bin/karaf，有点眼晕，没有找到什么线索。
