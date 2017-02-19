@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我与SDN的缘分：一名初学者的学习之路与心得
-date: 2015-07-05 12:00:00
+date: 2015-07-05 12:00:00 +0800
 comments: true
 categories: SDN
 excerpt: 一名初学者的学习之路与心得
