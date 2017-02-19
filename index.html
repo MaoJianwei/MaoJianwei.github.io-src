@@ -82,7 +82,7 @@ layout: default
       {% endfor %}
       
       <div class="categories-list-header">
-        最近更新时间：{{ site.time }}
+        最近更新时间：{{ site.time | date_to_rfc822 }}
       </div>
     </div>
     
