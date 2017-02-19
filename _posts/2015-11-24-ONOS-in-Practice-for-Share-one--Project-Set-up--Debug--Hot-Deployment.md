@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ONOS 实战分享（一）：项目建立、调试到热部署
-date: 2015-11-24 19:00:00 +0800
+date: 2015-11-24 19:00:00
 comments: true
 categories: SDN ONOS
 excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
