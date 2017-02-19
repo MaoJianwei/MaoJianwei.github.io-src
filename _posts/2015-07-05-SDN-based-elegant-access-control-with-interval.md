@@ -10,7 +10,7 @@ excerpt: 优雅的间歇性访问限制
 
 
 # 一、项目简介
-
+　
 #### 　 目的：
 
 > 设有一台PC机（Host1），一台Web服务器（Host2）提供简单的静态网页访问服务。通过RYU控制网络流，限制PC访问服务器的频率，如两次访问的间隔不能低于5秒。
@@ -18,9 +18,9 @@ excerpt: 优雅的间歇性访问限制
 #### 　 应用场景：
 
 > ① 为 付费用户 和 免费用户 提供差异化服务
-
+>
 > ② 小型站点、个人站点、未做优化站点的负载缓解
-
+>
 > ③ ……
 
 　　在详细了解TCP三次握手、四次挥手、RST强制重置，以及HTTP包交互全程的基础上，本项目达成了以下特色：
@@ -38,11 +38,11 @@ excerpt: 优雅的间歇性访问限制
 
 　　当限制访问时，控制器通过：
 > ① 提取计算Seq、提取计算Ack、设置bits协议标志位、设置window_size来构造一个TCP报文； 
-
+>
 > ② 同时依照HTTP协议构造一个web页面数据包（访问限制提示页面）
-
+>
 > ③ 构造Ip包
-
+>
 > ④ 构造Ethernet帧
 
 
@@ -166,7 +166,7 @@ excerpt: 优雅的间歇性访问限制
 ### （2）构造HTTP限制访问Web包
 
 
-　　**HTTP -> TCP -> IP -> Ethernet** <br /><br />
+>　　**HTTP -> TCP -> IP -> Ethernet** <br /><br />
 
 ![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/20.png) <br /><br />
 ### （3）控制器伪装发包 <br /><br />
@@ -183,7 +183,7 @@ excerpt: 优雅的间歇性访问限制
 　 　　time.time() 用于获取系统当前时间
 >
 
- <br /><br />
+ <br />
 ![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/22.png) <br /><br />
 
 # 五、项目心得
@@ -205,6 +205,6 @@ excerpt: 优雅的间歇性访问限制
 
 **作者简介：**
 
-**毛健炜，2015/09-至今，北京邮电大学信息与通信工程学院，未来网络理论与应用实验室(FNL实验室)，保研本科生。**
+**{{ site.Resume }}**
 
 **SDNLAB 文章发表：[http://www.sdnlab.com/12381.html](http://www.sdnlab.com/12381.html)**
