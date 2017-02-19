@@ -498,6 +498,6 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 **作者简介：**
 
-**毛健炜，2015/09-至今，北京邮电大学信息与通信工程学院，未来网络理论与应用实验室(FNL实验室)，保研本科生。**
+**{{ site.Resume }}**
 
 **SDNLAB 文章发表：[http://www.sdnlab.com/15197.html](http://www.sdnlab.com/15197.html)**
