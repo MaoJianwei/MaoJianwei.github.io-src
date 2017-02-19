@@ -23,7 +23,7 @@ github_username: MaoJianwei
 permalink: /:year/:month/:day/:title/
 excerpt_separator: "\n\n\n"
 
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 highlighter: rouge
 # highlighter: false
 gems:
