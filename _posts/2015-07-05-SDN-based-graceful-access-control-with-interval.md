@@ -13,9 +13,7 @@ excerpt: 优雅的间歇性访问限制
 　
 ####    Github开源：
 
-> https://github.com/MaoJianwei/SDN_Scripts
-> 
-> https://github.com/MaoJianwei/SDN_Scripts/tree/master/Mao_Graceful_Web_Access_Control
+> [Mao Graceful Web Access Control](https://github.com/MaoJianwei/SDN_Scripts/tree/master/Mao_Graceful_Web_Access_Control)
 
 #### 　 目的：
 
