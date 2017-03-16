@@ -1,10 +1,10 @@
 ---
 layout: post
-title: SDN实战团分享（二十一）：ONOS开发实战之OVS Manager(Bootcamp 2016)
+title: SDN实战团分享（二十一）：ONOS开发实战之OVS Manager (Bootcamp 2016)
 date: 2016-04-25 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: SDN实战团分享（二十一）：ONOS开发实战之OVS Manager(Bootcamp 2016)
+excerpt: SDN实战团分享（二十一）：ONOS开发实战之OVS Manager (Bootcamp 2016)
 ---
 
 
