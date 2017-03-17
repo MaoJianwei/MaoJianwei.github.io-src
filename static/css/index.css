@@ -203,11 +203,6 @@ nav{
 
 /* footer */
 footer{
-	/*set footer in the bottom of the page("body")*/
-	position:absolute; 
-    bottom: 0px;
-    width: 100%;
-
 	min-height: 50px;
 	line-height: 50px;
 	margin-top: 80px;
