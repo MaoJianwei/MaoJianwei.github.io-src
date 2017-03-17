@@ -2,12 +2,7 @@
  * Reset some basic elements
  */
 /* commom */
-html{
-	height: 100%;
-}
-
 body {
-	height: 100%;
 	background-image: url(http://www.maojianwei.com/static/css/bg-canvas_bg.jpg);
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
