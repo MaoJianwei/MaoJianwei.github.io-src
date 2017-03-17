@@ -204,6 +204,7 @@ nav{
 
 /* footer */
 footer{
+	bottom: 0;
 	min-height: 50px;
 	line-height: 50px;
 	margin-top: 80px;
