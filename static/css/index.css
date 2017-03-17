@@ -61,7 +61,8 @@ nav{
 
 /* index main */
 .main{
-	min-height: 800px;
+	/*min-height: 800px;*/
+	min-height: 100%;
 }
 .post-area{
 	
