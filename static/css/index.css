@@ -2,7 +2,12 @@
  * Reset some basic elements
  */
 /* commom */
+html{
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	background-image: url(http://www.maojianwei.com/static/css/bg-canvas_bg.jpg);
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
@@ -61,8 +66,7 @@ nav{
 
 /* index main */
 .main{
-	/*min-height: 800px;*/
-	min-height: 100%;
+	min-height: 800px;
 }
 .post-area{
 	
@@ -204,7 +208,6 @@ nav{
 
 /* footer */
 footer{
-	bottom: 0;
 	min-height: 50px;
 	line-height: 50px;
 	margin-top: 80px;
