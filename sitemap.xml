@@ -1,52 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://maojianwei.win/2015/11/24/ONOS%20%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E9%A1%B9%E7%9B%AE%E5%BB%BA%E7%AB%8B%E3%80%81%E8%B0%83%E8%AF%95%E5%88%B0%E7%83%AD%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2015-11-24T19:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/2015/10/30/OpenFlow%201.3%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20(2015.11.08%E6%9B%B4%E6%96%B0)/</loc>
-    <lastmod>2015-10-30T19:35:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/2015/07/05/SDN%EF%BC%9A%E4%BC%98%E9%9B%85%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/</loc>
-    <lastmod>2015-07-05T14:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/2015/07/05/%E6%88%91%E4%B8%8ESDN%E7%9A%84%E7%BC%98%E5%88%86/</loc>
-    <lastmod>2015-07-05T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/2015/07/05/MaoBlog/</loc>
-    <lastmod>2015-07-05T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/MaoSoftware/</loc>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/</loc>
-  </url>
     <url>
-      <loc>http://maojianwei.win/2015/07/05/MaoBlog/</loc>
+        <loc>http://www.maojianwei.com/2015/07/05/MaoBlog/</loc>
+        <lastmod>2015-07-05T00:00:00+08:00</lastmod>
     </url>
     <url>
-      <loc>http://maojianwei.win/2015/07/05/%E6%88%91%E4%B8%8ESDN%E7%9A%84%E7%BC%98%E5%88%86/</loc>
+        <loc>http://www.maojianwei.com/2015/07/05/My-destiny-with-SDN/</loc>
+        <lastmod>2015-07-05T12:00:00+08:00</lastmod>
     </url>
     <url>
-      <loc>http://maojianwei.win/2015/07/05/SDN%EF%BC%9A%E4%BC%98%E9%9B%85%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/</loc>
+        <loc>http://www.maojianwei.com/2015/07/05/SDN-based-graceful-access-control-with-interval/</loc>
+        <lastmod>2015-07-05T14:00:00+08:00</lastmod>
     </url>
     <url>
-      <loc>http://maojianwei.win/2015/10/30/OpenFlow%201.3%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20(2015.11.08%E6%9B%B4%E6%96%B0)/</loc>
+        <loc>http://www.maojianwei.com/2015/10/30/OpenFlow-1.3-Study-Note-2015.11.08-revise/</loc>
+        <lastmod>2015-10-30T19:35:00+08:00</lastmod>
     </url>
     <url>
-      <loc>http://maojianwei.win/2015/11/24/ONOS%20%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E9%A1%B9%E7%9B%AE%E5%BB%BA%E7%AB%8B%E3%80%81%E8%B0%83%E8%AF%95%E5%88%B0%E7%83%AD%E9%83%A8%E7%BD%B2/</loc>
+        <loc>http://www.maojianwei.com/2015/11/24/ONOS-in-Practice-for-Share-one-Project-Set-up-Debug-Hot-Deployment/</loc>
+        <lastmod>2015-11-24T19:00:00+08:00</lastmod>
     </url>
-  <url>
-    <loc>http://maojianwei.win/softwareUpdate/MaoFlightMap.html</loc>
-    <lastmod>2015-11-20T18:30:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maojianwei.win/softwareUpdate/MaoNote.html</loc>
-    <lastmod>2015-11-08T04:37:49+00:00</lastmod>
-  </url>
+    <url>
+        <loc>http://www.maojianwei.com/2016/03/04/How-to-contribute-to-the-ONOS-codebase/</loc>
+        <lastmod>2016-03-04T19:00:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/2016/04/20/I-be-with-ONOS-1st-prize-at-ONOS-Bootcamp-and-Hackathon-in-Beijing/</loc>
+        <lastmod>2016-04-20T19:00:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/2016/04/25/Share-in-SDN-Battle-Group-ONOS-in-practice-in-Bootcamp-2016-OVS-Manager/</loc>
+        <lastmod>2016-04-25T19:00:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/2016/06/15/P4-Programming-Protocol-Independent-Packet-Processors/</loc>
+        <lastmod>2016-06-15T19:00:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/2016/10/11/Algorithm-for-Load-Balance-Routing-theory-and-project-development-in-ONOS-1/</loc>
+        <lastmod>2016-10-11T19:00:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/2016/12/20/Algorithm-for-Load-Balance-Routing-theory-and-project-development-in-ONOS-2/</loc>
+        <lastmod>2016-12-20T19:00:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/MaoSoftware/</loc>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/</loc>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/resources/Document/OpenFlow%201.3%20%E6%A2%B3%E7%90%86%E6%80%BB%E7%BB%93_%E6%AF%9B%E5%81%A5%E7%82%9C_%E5%8C%97%E9%82%AE.pdf</loc>
+        <lastmod>2017-03-18T18:50:56+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/resources/Document/openflow-spec-v1.3.0.pdf</loc>
+        <lastmod>2017-03-18T18:50:56+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/softwareUpdate/MaoFlightMap.html</loc>
+        <lastmod>2017-03-18T18:50:58+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.maojianwei.com/softwareUpdate/MaoNote.html</loc>
+        <lastmod>2017-03-18T18:50:58+08:00</lastmod>
+    </url>
 </urlset>
