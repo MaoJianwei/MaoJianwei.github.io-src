@@ -1,9 +1,6 @@
 # **Welcome to Mao Blog**
 
-------
-
 ### **SDN, Coding, and my Life!**
-
 
 #### My Software Publish Station
 > - [x] [【大毛软件发布站】 Innovated in China](http://www.maojianwei.com/MaoSoftware/)
