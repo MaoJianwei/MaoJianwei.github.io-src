@@ -61,7 +61,7 @@ excerpt: ONOS：从Device Subsystem看ONOS子系统设计（1）：Core层基本
 > 
 > * 通过内部类InternalDeviceProviderService实现了接口：
 > 
-> 　　　　ProviderService　=>　DeviceProviderService
+> 　　　　ProviderService　→　DeviceProviderService
 > 
 > * 继承了一个抽象类AbstractListenerProviderRegistry
 
