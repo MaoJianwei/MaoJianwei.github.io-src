@@ -96,4 +96,4 @@ excerpt: ONOS：负载均衡路由算法及应用开发（一）
 
 　　在ONOS中，网元设备间的链路被抽象为Link，而设备到终端主机的链路被抽象为EdgeLink。在我们能够获取到的拓扑图中，是不包含最后一公里EdgeLink的。因此，需要在整条路径结果中加上一前一后两个EdgeLink，构成完整的路径，再将路径决策下发到网络中：
 
-　　**SourceEdgeLink→→Links→→DestinationEdgeLink**
+　　**SourceEdgeLink →→ Links →→ DestinationEdgeLink**

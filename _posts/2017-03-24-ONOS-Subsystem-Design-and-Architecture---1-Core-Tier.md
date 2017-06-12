@@ -51,13 +51,13 @@ excerpt: ONOS：从Device Subsystem看ONOS子系统设计（1）：Core层基本
 > 
 > * 实现了以下四个接口：
 > 
-> 　　　　1. Service　=>　DeviceService
+> 　　　　1. Service　→　DeviceService
 > 
-> 　　　　2. AdminService　=>　DeviceAdminService
+> 　　　　2. AdminService　→　DeviceAdminService
 > 
-> 　　　　3. ProviderRegistry　=>　DeviceProviderRegistry
+> 　　　　3. ProviderRegistry　→　DeviceProviderRegistry
 > 
-> 　　　　4. 额外　=>　PortConfigOperatorRegistry
+> 　　　　4. 额外　→　PortConfigOperatorRegistry
 > 
 > * 通过内部类InternalDeviceProviderService实现了接口：
 > 
