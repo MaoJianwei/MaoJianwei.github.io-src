@@ -7,7 +7,10 @@ categories: SDN P4
 excerpt: P4：编写协议无关的包处理器
 ---
 
+> **作者简介：{{ site.Resume }}**
+> 
+> **研究方向：{{ site.Major }}**
+> 
+> 文章首发在SDNLAB：[http://www.sdnlab.com/17107.html](http://www.sdnlab.com/17107.html)
 
-等有空了再把文章整理格式，迁移过来。文章首发在SDNLAB：
-
-[http://www.sdnlab.com/17107.html](http://www.sdnlab.com/17107.html)
+等有空了再把文章整理格式，迁移过来 :)

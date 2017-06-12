@@ -7,7 +7,11 @@ categories: SDN
 excerpt: 一名初学者的学习之路与心得
 ---
 
-
+> **作者简介：{{ site.Resume }}**
+> 
+> **研究方向：{{ site.Major }}**
+> 
+> **SDNLAB 文章发表：[http://www.sdnlab.com/12252.html](http://www.sdnlab.com/12252.html)**
 
 　　去年十一月，我在大三的计算机网络课程上与SDN初识。今年三月中旬，我有幸得到老乡学长北邮 – 李呈的指引，真正地与SDN结缘，悄然走上学习之路。 <br /><br />
 
@@ -104,10 +108,3 @@ excerpt: 一名初学者的学习之路与心得
 
 　　我有幸得到老乡学长北邮–李呈的指引，他带我走进了这一片新天地，真的是非常的感谢！同时也要感谢学习路上跟我一起交流的小伙伴们，相互学习，共同进步，相信美好的未来就在不远的前方！
 
-　　
-
-**作者简介：**
-
-**{{ site.Resume }}**
-
-**SDNLAB 文章发表：[http://www.sdnlab.com/12252.html](http://www.sdnlab.com/12252.html)**

@@ -7,7 +7,10 @@ categories: SDN ONOS
 excerpt: ONOS：负载均衡路由算法及应用开发（一）
 ---
 
+> **作者简介：{{ site.Resume }}**
+> 
+> **研究方向：{{ site.Major }}**
+> 
+> 文章首发在SDNLAB：[http://www.sdnlab.com/17945.html](http://www.sdnlab.com/17945.html)
 
-等有空了再把文章整理格式，迁移过来。文章首发在SDNLAB：
-
-[http://www.sdnlab.com/17945.html](http://www.sdnlab.com/17945.html)
+等有空了再把文章整理格式，迁移过来 :)

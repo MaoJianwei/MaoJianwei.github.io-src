@@ -7,6 +7,12 @@ categories: SDN ONOS
 excerpt: ONOS：负载均衡路由算法及应用开发（二）
 ---
 
+> **作者简介：{{ site.Resume }}**
+> 
+> **研究方向：{{ site.Major }}**
+> 
+> **SDNLAB 文章发表：[http://www.sdnlab.com/18276.html](http://www.sdnlab.com/18276.html)**
+
 　　上篇文章笔者主要讲述了负载均衡的原理：[《ONOS：负载均衡路由算法及应用开发（一）》](/2016/10/11/Algorithm-for-Load-Balance-Routing-theory-and-project-development-in-ONOS-1/)
 
 　　本文将为大家讲述应用的实现，并进行必要的代码分析。
@@ -314,3 +320,5 @@ public void process(PacketContext context) {
 # 参考文献
 
 [1] [ONOS 实战分享（一）：项目建立、调试到热部署](http://www.sdnlab.com/15197.html)
+
+<br />

@@ -7,9 +7,15 @@ categories: SDN ONOS
 excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 ---
 
+> **作者简介：{{ site.Resume }}**
+> 
+> **研究方向：{{ site.Major }}**
+> 
+> **SDNLAB 文章发表：[http://www.sdnlab.com/15197.html](http://www.sdnlab.com/15197.html)**
+
 ![Mao]({{site.url}}/resources/picture/2015/11/1.png) <br />
 
-　　
+<br />
 
 　　以上是ONOS的架构图，相信大家已经熟记于心了 √
 
@@ -493,11 +499,3 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 　　
 
 　　北京，海淀 2015.11.24
-
-　　
-
-**作者简介：**
-
-**{{ site.Resume }}**
-
-**SDNLAB 文章发表：[http://www.sdnlab.com/15197.html](http://www.sdnlab.com/15197.html)**

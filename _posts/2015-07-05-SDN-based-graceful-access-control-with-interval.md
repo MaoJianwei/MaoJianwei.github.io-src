@@ -7,7 +7,11 @@ categories: SDN RYU
 excerpt: 优雅的间歇性访问限制
 ---
 
-
+> **作者简介：{{ site.Resume }}**
+> 
+> **研究方向：{{ site.Major }}**
+> 
+> **SDNLAB 文章发表：[http://www.sdnlab.com/12381.html](http://www.sdnlab.com/12381.html)**
 
 # 一、项目简介
 　
@@ -204,11 +208,3 @@ excerpt: 优雅的间歇性访问限制
 　　对于上方PC端主动发起RST的原因，只是我利用已有的知识积累，进行分析和一点点猜想的结果，还希望老师、学长学姐、同学们能给予我一些指导，非常感谢！
 
 　　这学期的SDN课程行至尾声，还真的是意犹未尽，在北邮能听到这么有前瞻性的课程，真是一大幸事，我想，我们也只有始终站在潮流前端，才能保持优秀，引领未来！
-
-　　
-
-**作者简介：**
-
-**{{ site.Resume }}**
-
-**SDNLAB 文章发表：[http://www.sdnlab.com/12381.html](http://www.sdnlab.com/12381.html)**
