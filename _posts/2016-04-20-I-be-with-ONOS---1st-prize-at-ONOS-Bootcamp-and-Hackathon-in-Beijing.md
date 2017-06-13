@@ -48,9 +48,7 @@ excerpt: 我和ONOS酱：ONOS全球首届集训营冠军团队赛后分享
 
 　　1. 集群角色切换：Failover、Load Balance、Log Timestamp
 
-　　2. 集群数据同步：
-
-　　　　Raft-Copycat、State Machine、Log Replication、2 Phase Commit、Partition、Strong/Eventually Consistency
+　　2. 集群数据同步：Raft-Copycat、State Machine、Log Replication、2 Phase Commit、Partition、Strong/Eventually Consistency
 
 　　3. 理解了Switch Pipeline，在比赛中进行了开发和验证
 
