@@ -42,7 +42,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　官方Wiki：[Installing and Running ONOS](https://wiki.onosproject.org/display/ONOS/Installing+and+Running+ONOS) <br /><br />
 
-　　按照官方一步步做，我印象中就不会遇到什么卡壳的问题，除了Download一些Maven 库的时候，是比较拼网络的，如果出问题，也可以考虑改用一些国内的Maven镜像站，祝大家顺利。
+　　按照官方一步步做，我印象中就不会遇到什么卡壳的问题，除了Download一些Maven 库的时候，是比较拼网络的，如果出问题，也可以考虑改用一些国内的Maven镜像站，如阿里云的Maven镜像，祝大家顺利。
 
 　　
 
