@@ -25,7 +25,7 @@ myGithubLink: https://github.com/MaoJianwei
 #   Google search results) and in your feed.xml site description.
 
 # baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://www.maojianwei.com # the base hostname & protocol for your site, backup maojianwei.github.io
+url: http://maojianwei.github.io # the base hostname & protocol for your site, backup maojianwei.github.io
 # twitter_username: jekyllrb
 github_username: MaoJianwei
 permalink: /:year/:month/:day/:title/

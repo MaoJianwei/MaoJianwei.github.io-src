@@ -3,7 +3,8 @@
  */
 /* commom */
 body {
-	background-image: url(http://www.maojianwei.com/static/css/bg-canvas_bg.jpg);
+	/*background-image: url(http://www.maojianwei.com/static/css/bg-canvas_bg.jpg);*/
+	background-image: url(http://maojianwei.github.io/static/css/bg-canvas_bg.jpg);
 	/*background-image: url(http://github-page-cdn.maojianwei.com/bg-canvas_bg.jpg);*/
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
