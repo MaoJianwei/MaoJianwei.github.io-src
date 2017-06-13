@@ -75,9 +75,9 @@ excerpt: 如何向ONOS社区贡献代码
 
 # 1.Git clone
 
-　　ONOS Gerrit：https://gerrit.onosproject.org
+　　ONOS Gerrit：[https://gerrit.onosproject.org](https://gerrit.onosproject.org)
 
-　　下载onos的源码：
+　　下载ONOS的源码：
 
 <br />
 
@@ -142,7 +142,7 @@ $ git review
 
 > 注：需要git review这个命令，这不是git标配，我们可从网上下载安装文件，也可通过pip安装 *git-review*
 
-　　然后即可看到我们的分支类似地出现在此处，ALL　→　Open
+　　然后即可看到我们的分支类似地出现在此处，ALL → Open
 
 <br />
 
@@ -212,4 +212,4 @@ $ git review –R	//提交此次修正，成为一个新的Patch Set
 
 > A. 可以通过[ONOS的邮件列表](https://wiki.onosproject.org/display/ONOS/Mailing+Lists)，参与开发者的讨论和协作。
 > 
-> B. 也可以利用[ONOS的Jira工具](链接https://jira.onosproject.org)，管理我们提交的分支。
+> B. 也可以利用[ONOS的Jira工具](https://jira.onosproject.org)，管理我们提交的分支。
