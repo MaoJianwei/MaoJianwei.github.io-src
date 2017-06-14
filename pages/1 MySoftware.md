@@ -19,11 +19,11 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 	<!-- 第一列 -->
 	<ul>
 		<li>
-			<a href="{{site.url}}/resources/MySoftware/EXE/大毛笔记.exe">
-				<img src="{{site.url}}/resources/MySoftware/picture/note.png" title="{{ page.noteTitle }}" width="106" height="106">
+			<a href="/resources/MySoftware/EXE/大毛笔记.exe">
+				<img src="/resources/MySoftware/picture/note.png" title="{{ page.noteTitle }}" width="106" height="106">
 			</a>
 			<div class="head">
-				<a href="{{site.url}}/resources/MySoftware/EXE/大毛笔记.exe" title="{{ page.noteTitle }}">
+				<a href="/resources/MySoftware/EXE/大毛笔记.exe" title="{{ page.noteTitle }}">
 				大毛笔记
 				</a>
 			</div>
@@ -36,11 +36,11 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 		</li>	
 
 		<li>
-			<a href="{{site.url}}/resources/MySoftware/EXE/大毛传真.zip">
-				<img src="{{site.url}}/resources/MySoftware/picture/fax.png" title="{{ page.faxTitle }}" width="106" height="106">
+			<a href="/resources/MySoftware/EXE/大毛传真.zip">
+				<img src="/resources/MySoftware/picture/fax.png" title="{{ page.faxTitle }}" width="106" height="106">
 			</a>
 			<div class="head">
-				<a href="{{site.url}}/resources/MySoftware/EXE/大毛传真.zip" title="{{ page.faxTitle }}">
+				<a href="/resources/MySoftware/EXE/大毛传真.zip" title="{{ page.faxTitle }}">
 				大毛传真
 				</a>
 			</div>
@@ -54,11 +54,11 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 	<!-- 第二列 -->
 	<ul>
 		<li>
-			<a href="{{site.url}}/resources/MySoftware/EXE/大毛局域网传输.exe">
-				<img src="{{site.url}}/resources/MySoftware/picture/TcpFileIcon.jpg" title="{{ page.fileTransFerTitle }}" width="106" height="106">
+			<a href="/resources/MySoftware/EXE/大毛局域网传输.exe">
+				<img src="/resources/MySoftware/picture/TcpFileIcon.jpg" title="{{ page.fileTransFerTitle }}" width="106" height="106">
 			</a>
 			<div class="head">
-				<a href="{{site.url}}/resources/MySoftware/EXE/大毛局域网传输.exe" title="{{ page.fileTransFerTitle }}">
+				<a href="/resources/MySoftware/EXE/大毛局域网传输.exe" title="{{ page.fileTransFerTitle }}">
 				局域网文件传输
 				</a>
 			</div>
@@ -70,11 +70,11 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 		</li>	
 
 		<li>
-			<a href="{{site.url}}/resources/MySoftware/EXE/大毛早睡提醒.exe">
-				<img src="{{site.url}}/resources/MySoftware/picture/sleepReminder.jpg" title="{{ page.sleepReminderTitle }}" width="106" height="106">
+			<a href="/resources/MySoftware/EXE/大毛早睡提醒.exe">
+				<img src="/resources/MySoftware/picture/sleepReminder.jpg" title="{{ page.sleepReminderTitle }}" width="106" height="106">
 			</a>
 			<div class="head">
-				<a href="{{site.url}}/resources/MySoftware/EXE/大毛早睡提醒.exe" title="{{ page.sleepReminderTitle }}">
+				<a href="/resources/MySoftware/EXE/大毛早睡提醒.exe" title="{{ page.sleepReminderTitle }}">
 				早睡提醒
 				</a>
 			</div>
@@ -91,11 +91,11 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 <!-- 第三列 -->
 	<ul>
 		<li>
-			<a href="{{site.url}}/resources/MySoftware/EXE/大毛地图.exe">
-				<img src="{{site.url}}/resources/MySoftware/picture/map.jpg" title="{{ page.mapTitle }}" width="106" height="106">
+			<a href="/resources/MySoftware/EXE/大毛地图.exe">
+				<img src="/resources/MySoftware/picture/map.jpg" title="{{ page.mapTitle }}" width="106" height="106">
 			</a>
 			<div class="head">
-				<a href="{{site.url}}/resources/MySoftware/EXE/大毛地图.exe" title="{{ page.mapTitle }}">
+				<a href="/resources/MySoftware/EXE/大毛地图.exe" title="{{ page.mapTitle }}">
 				大毛地图
 				</a>
 			</div>
