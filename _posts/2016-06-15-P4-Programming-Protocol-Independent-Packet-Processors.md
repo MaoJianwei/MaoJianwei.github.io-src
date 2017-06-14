@@ -11,7 +11,7 @@ excerpt: P4：编写协议无关的包处理器
 > 
 > **研究方向：{{ site.Major }}**
 > 
-> 文章首发在SDNLAB：[http://www.sdnlab.com/17107.html](http://www.sdnlab.com/17107.html)
+> **SDNLAB 文章发表：[http://www.sdnlab.com/17107.html](http://www.sdnlab.com/17107.html)**
 
 　　本文为论文翻译，论文原文：[P4 Programming Protocol-Independent Packet Processors](/resources/Document/P4_Programming_Protocol-Independent_Packet_Processors.pdf)
 

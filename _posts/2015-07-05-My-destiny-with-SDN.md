@@ -15,7 +15,7 @@ excerpt: 一名初学者的学习之路与心得
 
 　　去年十一月，我在大三的计算机网络课程上与SDN初识。今年三月中旬，我有幸得到老乡学长北邮 – 李呈的指引，真正地与SDN结缘，悄然走上学习之路。 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/pt-study-SDN-2015-06-29.jpg) <br /><br />
+![MYpicture](/resources/picture/2015/07/pt-study-SDN-2015-06-29.jpg) <br /><br />
 
 　　SDN，Software Defined Network，是对传统网络架构的一次革新。经过短短三四个月的学习和实践，我本着授人以渔的理念，辅以我的一些理解，将我的学习历程和心得叙写出来，送给各位想要入门的或跟我一样刚刚入门的朋友们。文中有理解不到位的地方，还望各位朋友不吝赐教，非常感谢！
 

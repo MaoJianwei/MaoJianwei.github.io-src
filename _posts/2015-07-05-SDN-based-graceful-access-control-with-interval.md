@@ -82,11 +82,11 @@ excerpt: 优雅的间歇性访问限制
 
 　　因此PC端就主动发起了RST连接中断，特插图如下： <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/1.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/1.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/2.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/2.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/3.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/3.png) <br /><br />
 
 
 ## （2）最精简的HTTP响应数据
@@ -106,35 +106,35 @@ excerpt: 优雅的间歇性访问限制
 　　
 　　【 Mininet 】 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/4.png)  <br />
+![MYpicture](/resources/picture/2015/07/YouYa/4.png)  <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/5.png)  <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/5.png)  <br /><br />
 
 
 　　【 RYU 】 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/6.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/6.png) <br /><br />
 
 ## （2）软件准备
 
 
 　　【 Mininet 】角色：h1 客户端（wget、Firefox）、h2服务器（Python SimpleHTTPServer） <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/7.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/7.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/8.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/8.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/9-1.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/9-1.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/9-2.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/9-2.png) <br /><br />
 
 　　【Wireshark】启动两个，分别监控：s1-eth1（h1）、s1-eth2（h2），并且仅显示TCP包 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/10.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/10.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/11.png) <br />
+![MYpicture](/resources/picture/2015/07/YouYa/11.png) <br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/12.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/12.png) <br /><br />
 
 
 ## （3）访问过程
@@ -145,41 +145,41 @@ excerpt: 优雅的间歇性访问限制
 
 ### 1. wget 正常访问 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/13.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/13.png) <br /><br />
 
 ### 2. wget 限制访问 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/14.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/14.png) <br /><br />
 
 ### 3. Firefox 正常访问 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/15.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/15.png) <br /><br />
 
 ### 4. Firefox 限制访问 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/16.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/16.png) <br /><br />
 
 ### 5. Firefox 正常访问、限制访问 Web 页面 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/17.png) <br /><br /><br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/17.png) <br /><br /><br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/18.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/18.png) <br /><br />
 
 # 四、核心代码展示
 
 ### （1）代码结构 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/19.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/19.png) <br /><br />
 
 ### （2）构造HTTP限制访问Web包
 
 
 > <br />　　**HTTP -> TCP -> IP -> Ethernet** <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/20.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/20.png) <br /><br />
 ### （3）控制器伪装发包 <br /><br />
 
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/21.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/21.png) <br /><br />
 
 ### （4）限制间隔计时
 
@@ -192,7 +192,7 @@ excerpt: 优雅的间歇性访问限制
 >
 
  <br />
-![MYpicture]({{site.url}}/resources/picture/2015/07/YouYa/22.png) <br /><br />
+![MYpicture](/resources/picture/2015/07/YouYa/22.png) <br /><br />
 
 # 五、项目心得
 　　这个项目的开发真是历经坎坷，我也在其中悟到了很多课堂上没有涉及到的知识。

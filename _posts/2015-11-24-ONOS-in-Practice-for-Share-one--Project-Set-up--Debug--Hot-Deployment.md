@@ -13,7 +13,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 > 
 > **SDNLAB 文章发表：[http://www.sdnlab.com/15197.html](http://www.sdnlab.com/15197.html)**
 
-![Mao]({{site.url}}/resources/picture/2015/11/1.png) <br />
+![Mao](/resources/picture/2015/11/1.png) <br />
 
 <br />
 
@@ -48,7 +48,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　Karaf、Maven：
 
-![Mao]({{site.url}}/resources/picture/2015/11/2.png) <br />
+![Mao](/resources/picture/2015/11/2.png) <br />
 
 　　
 
@@ -56,7 +56,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　为了Eclipse工程方便，目前放在workspace下，仅作为后文介绍的“路径”前提。
  
-![Mao]({{site.url}}/resources/picture/2015/11/3.png) <br />
+![Mao](/resources/picture/2015/11/3.png) <br />
 
 　　
 
@@ -64,7 +64,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　（target目录在编译后才有）
 
-![Mao]({{site.url}}/resources/picture/2015/11/4.png) <br />
+![Mao](/resources/picture/2015/11/4.png) <br />
 
 　　
 
@@ -74,7 +74,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　（target目录在编译后才有）
  
-![Mao]({{site.url}}/resources/picture/2015/11/5.png) <br />
+![Mao](/resources/picture/2015/11/5.png) <br />
 
 　　
 
@@ -82,7 +82,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　应该是从ONOS 1.3版本开始，官方提供了一个脚本，用于项目建立的便利，我先带大家一起来使用，文末再给大家看看内容。
 
-![Mao]({{site.url}}/resources/picture/2015/11/6.png) <br />
+![Mao](/resources/picture/2015/11/6.png) <br />
 
 　　
 
@@ -90,13 +90,13 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　在某个不含pom.xml文件的目录下，执行onos-create-app，要等一段时间，才会出现命令行里的最后那一句：
 
-![Mao]({{site.url}}/resources/picture/2015/11/7.png) <br />
+![Mao](/resources/picture/2015/11/7.png) <br />
 
 　　
 
 　　这里我们输入试验使用的信息，依次如下：
  
-![Mao]({{site.url}}/resources/picture/2015/11/8.png) <br />
+![Mao](/resources/picture/2015/11/8.png) <br />
 
 　　
 
@@ -110,13 +110,13 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　That’s good!
 
-![Mao]({{site.url}}/resources/picture/2015/11/9.png) <br />
+![Mao](/resources/picture/2015/11/9.png) <br />
 
 　　
 
 　　我们刚刚构建了一个这样的目录结构：
 
-![Mao]({{site.url}}/resources/picture/2015/11/10.png) <br />
+![Mao](/resources/picture/2015/11/10.png) <br />
 
 　　
 
@@ -134,7 +134,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　推荐大家此时，把整个SDNLAB-Demo移动到onos/apps/目录下，最外层的SDNLAB-Demo文件夹删除，最后如下：
 
-![Mao]({{site.url}}/resources/picture/2015/11/11.png) <br />
+![Mao](/resources/picture/2015/11/11.png) <br />
 
 　　
 
@@ -146,19 +146,19 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 > * 红箭头No.2，模块的描述信息
 > * 红箭头No.3，应用名和开发者组织名称
 
-![Mao]({{site.url}}/resources/picture/2015/11/12.png) <br />
+![Mao](/resources/picture/2015/11/12.png) <br />
 
 　　
 
 　　然后打开apps目录下其他任意一个模块的pom.xml文件，从中复制<parent>段的信息，贴到我们的pom里面来：
 
-![Mao]({{site.url}}/resources/picture/2015/11/13.png) <br />
+![Mao](/resources/picture/2015/11/13.png) <br />
 
 　　
 
 　　最后，打开apps目录下的pom，加入我们模块的信息，这样前后的从属关系就建立好了：
 
-![Mao]({{site.url}}/resources/picture/2015/11/14.png) <br />
+![Mao](/resources/picture/2015/11/14.png) <br />
 
 　　
 
@@ -189,7 +189,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　好的，不急着做，我们先来看看成功导入ONOS之后，大致是个什么样：
 
-![Mao]({{site.url}}/resources/picture/2015/11/15.png) <br />
+![Mao](/resources/picture/2015/11/15.png) <br />
 
 　　
 
@@ -202,7 +202,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　然后回到IDEA，就会发现我们的模块已经存在于目录树中了，so easy！
 
-![Mao]({{site.url}}/resources/picture/2015/11/16.png) <br />
+![Mao](/resources/picture/2015/11/16.png) <br />
 
 　　
 
@@ -214,15 +214,15 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　
  
-![Mao]({{site.url}}/resources/picture/2015/11/17.png) <br />
+![Mao](/resources/picture/2015/11/17.png) <br />
 
 　　
 
 　　感觉跟IDEA比起来，项目聚合得不是很好，让我们开始导入吧：
 
-![Mao]({{site.url}}/resources/picture/2015/11/18.png) <br />
+![Mao](/resources/picture/2015/11/18.png) <br />
 
-![Mao]({{site.url}}/resources/picture/2015/11/19.png) <br />
+![Mao](/resources/picture/2015/11/19.png) <br />
 
 　　
 
@@ -238,15 +238,15 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 > * Install，构建新的模块；
 > * -DskipTests，跳过构建完成后的测试步骤，debug阶段暂且跳过吧：
 
-![Mao]({{site.url}}/resources/picture/2015/11/20.png) <br />
+![Mao](/resources/picture/2015/11/20.png) <br />
 
-![Mao]({{site.url}}/resources/picture/2015/11/21.png) <br />
+![Mao](/resources/picture/2015/11/21.png) <br />
 
 　　
 
 ### 2. IDE方式：
 
-![Mao]({{site.url}}/resources/picture/2015/11/22.png) <br />
+![Mao](/resources/picture/2015/11/22.png) <br />
 
 　　
 
@@ -255,16 +255,16 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 > 1) 模块目录下多了target文件夹，.oar文件就是我们的ONOS应用模块文件：
 > oar文件可单独、直接用于模块的远程热部署
 > 
-> ![Mao]({{site.url}}/resources/picture/2015/11/23.png) <br />
+> ![Mao](/resources/picture/2015/11/23.png) <br />
 > 
 > 
 > 2) 项目被安装到本地Maven仓库，信息同时加入仓库的repository.xml文件：
 > 
-> ![Mao]({{site.url}}/resources/picture/2015/11/24.png) <br />
+> ![Mao](/resources/picture/2015/11/24.png) <br />
 > 
-> ![Mao]({{site.url}}/resources/picture/2015/11/25.png) <br />
+> ![Mao](/resources/picture/2015/11/25.png) <br />
 > 
-> ![Mao]({{site.url}}/resources/picture/2015/11/26.png) <br />
+> ![Mao](/resources/picture/2015/11/26.png) <br />
 > 
 
 　　
@@ -275,7 +275,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　By the way，我们模块名称是SDNLAB-Demo
 
-![Mao]({{site.url}}/resources/picture/2015/11/27.png) <br />
+![Mao](/resources/picture/2015/11/27.png) <br />
 
 　　
 
@@ -287,7 +287,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 >
 > 　　我跟踪了Karaf的启动过程，多次尝试改动，摸索了一段时间，还是没能弄清楚缘由，还请了解的朋友们指教，非常感谢！如下：
 >
-> ![Mao]({{site.url}}/resources/picture/2015/11/28.png) <br />
+> ![Mao](/resources/picture/2015/11/28.png) <br />
 >
 > 　　而且在项目构建的时候，如果使用的是其他version，会额外下载相应版本的依赖文件，虽然下载不成功只是warning，模块也能工作，但不知道会有什么副作用。
 
@@ -295,13 +295,13 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　如果写好的模块要“热部署”到远端，或者是模块没有被默认装载，则命令没有任何回显，如下： 
 
-![Mao]({{site.url}}/resources/picture/2015/11/29.png) <br />
+![Mao](/resources/picture/2015/11/29.png) <br />
 
 　　
 
 　　进入oar文件所在目录，一条命令onos-app，完成远程安装模块：
 
-![Mao]({{site.url}}/resources/picture/2015/11/30.png) <br />
+![Mao](/resources/picture/2015/11/30.png) <br />
 
 　　
 
@@ -311,13 +311,13 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　第二条命令，完成远程启动模块：
  
-![Mao]({{site.url}}/resources/picture/2015/11/31.png) <br />
+![Mao](/resources/picture/2015/11/31.png) <br />
 
 　　
 
 　　再次查看，可以发现我们的模块已经成功装载，并且启动！
  
-![Mao]({{site.url}}/resources/picture/2015/11/32.png) <br />
+![Mao](/resources/picture/2015/11/32.png) <br />
 
 　　
 
@@ -331,7 +331,7 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　用 onos-karaf debug 来启动ONOS，会开启5005远程调试端口：
  
-![Mao]({{site.url}}/resources/picture/2015/11/33.png) <br />
+![Mao](/resources/picture/2015/11/33.png) <br />
 
 　　
 
@@ -343,37 +343,37 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
  
 　　配置远程调试，一张图搞定：
  
-![Mao]({{site.url}}/resources/picture/2015/11/34.png) <br />
+![Mao](/resources/picture/2015/11/34.png) <br />
 
 　　
 
 　　我们在模块加载入口函数activate()中设定断点，开始调试，如果没有安装或开启模块，可以：
 
-![Mao]({{site.url}}/resources/picture/2015/11/35.png) <br />
+![Mao](/resources/picture/2015/11/35.png) <br />
 
 　　
 
 　　如果模块已经是active，为了触发这个断点，我们将它关了再开一次。
 
-![Mao]({{site.url}}/resources/picture/2015/11/36.png) <br />
+![Mao](/resources/picture/2015/11/36.png) <br />
 
 　　
 
 　　看！Karaf console控制台线程正在执行我们的模块加载函数，ONOS已经卡住了。
 
-![Mao]({{site.url}}/resources/picture/2015/11/37.png) <br />
+![Mao](/resources/picture/2015/11/37.png) <br />
 
 　　
 
 　　ONOS的线程池也是美美的 ^_^
 
-![Mao]({{site.url}}/resources/picture/2015/11/38.png) <br />
+![Mao](/resources/picture/2015/11/38.png) <br />
 
 　　
 
 　　我们唯一的内部变量已显示，断点卡在了即将写日志的地方。
 
-![Mao]({{site.url}}/resources/picture/2015/11/39.png) <br />
+![Mao](/resources/picture/2015/11/39.png) <br />
 
 　　
 
@@ -383,13 +383,13 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 ### 2. Eclipse
 
-![Mao]({{site.url}}/resources/picture/2015/11/40.png) <br />
+![Mao](/resources/picture/2015/11/40.png) <br />
 
-![Mao]({{site.url}}/resources/picture/2015/11/41.png) <br />
+![Mao](/resources/picture/2015/11/41.png) <br />
 
-![Mao]({{site.url}}/resources/picture/2015/11/42.png) <br />
+![Mao](/resources/picture/2015/11/42.png) <br />
 
-![Mao]({{site.url}}/resources/picture/2015/11/43.png) <br />
+![Mao](/resources/picture/2015/11/43.png) <br />
 
 　　
 
@@ -397,25 +397,25 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　假设我们已经修改了模块的代码，现在准备上线调试或运行，为了展示方便和标识版本，首先，修改pom文件中的<description>、重新编译构建：
 
-![Mao]({{site.url}}/resources/picture/2015/11/44.png) <br />
+![Mao](/resources/picture/2015/11/44.png) <br />
 
 　　
 
 　　模块已经存在，这时候是不能install的：
 
-![Mao]({{site.url}}/resources/picture/2015/11/45.png) <br />
+![Mao](/resources/picture/2015/11/45.png) <br />
 
 　　
 
 　　这时候需要用上我们的应用名，用reinstall参数：
 
-![Mao]({{site.url}}/resources/picture/2015/11/46.png) <br />
+![Mao](/resources/picture/2015/11/46.png) <br />
 
 　　
 
 　　That’s Good!
 
-![Mao]({{site.url}}/resources/picture/2015/11/47.png) <br />
+![Mao](/resources/picture/2015/11/47.png) <br />
 
 　　
 
@@ -445,38 +445,38 @@ excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
 
 　　脚本位置：
 
-![Mao]({{site.url}}/resources/picture/2015/11/48.png) <br />
+![Mao](/resources/picture/2015/11/48.png) <br />
 
 　　
 
 　　onos-create-app，本质是使用了mvn的项目原型框架：
 
-![Mao]({{site.url}}/resources/picture/2015/11/49.png) <br />
+![Mao](/resources/picture/2015/11/49.png) <br />
 
 　　
 
 　　onos-app，本质是使用了REST API北向接口，这接口是不是很强大 ^_^ 
 
-![Mao]({{site.url}}/resources/picture/2015/11/50.png) <br />
+![Mao](/resources/picture/2015/11/50.png) <br />
 
 　　
 
 　　onos-karaf，ONOS启动脚本：先配置好karaf环境，再启动karaf本体：
 
-![Mao]({{site.url}}/resources/picture/2015/11/51.png) <br />
+![Mao](/resources/picture/2015/11/51.png) <br />
 
 　　
 
 　　onos-setup-karaf，配置环境，将默认装载的模块全部准备好，舞场后台Staging就位 ^_^
 只给大家展示熟悉的部分好啦：
 
-![Mao]({{site.url}}/resources/picture/2015/11/52.png) <br />
+![Mao](/resources/picture/2015/11/52.png) <br />
 
 　　
 
 　　Karaf，大家感兴趣就去瞄两眼吧 ^_^
 
-![Mao]({{site.url}}/resources/picture/2015/11/53.png) <br />
+![Mao](/resources/picture/2015/11/53.png) <br />
 
 　　
 
