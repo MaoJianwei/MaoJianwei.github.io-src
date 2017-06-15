@@ -24,10 +24,21 @@
 
     {% include footer.html %}
 
+</body>
 
 
 <!-- 在新窗口中打开外链，如北邮官网 -->
 <script type="text/javascript">
+
+  // Mao: click and open large picture
+  $('img[src^="/resources/picture"]').each(function(){
+
+      // console.log($(this).attr("alt"));
+      if($(this).attr("class") != "avatar"){
+        $(this).wrap("<a href='" + $(this).attr('src') + "' target='_blank'></a>");
+      }
+  });
+
   function addBlankTargetForLinks () {
     $('a[href^="http"]').each(function(){
         $(this).attr('target', '_blank');
@@ -91,6 +102,5 @@
   console.log("Load Swiftype Search Engine :)");
 </script>
 
-</body>
 
 </html>
