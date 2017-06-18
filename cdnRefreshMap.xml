@@ -1,9 +1,6 @@
 ---
 layout: null
 ---
-
-please use cdnRefreshMap.sh instead
-
 {% for post in site.posts limit:1000 %}{{ post.url | prepend: site.baseurl | prepend: site.url }}
 {% endfor %}{% for post in site.pages limit:1000 %}{{ post.url | prepend: site.baseurl | prepend: site.url }}
 {% endfor %}

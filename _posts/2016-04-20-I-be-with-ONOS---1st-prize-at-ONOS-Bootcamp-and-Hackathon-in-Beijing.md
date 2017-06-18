@@ -15,6 +15,8 @@ excerpt: 我和ONOS酱：ONOS全球首届集训营冠军团队赛后分享
 
 　　很荣幸能够在老师的带领下，参加首届ONOS集训Hackathon，两天的讲授加两天的比赛，让我对ONOS的核心有了更深入的理解，对ONOS的发展现状有了更多的了解。
 
+　　我们的项目[ONOS_OVS_Manager_Bootcamp2016](https://github.com/MaoJianwei/ONOS_OVS_Manager_Bootcamp2016)在 Github开源，希望与大家交流学习。
+
 <br />
 
 ![IMG_20160416_155512_720](/resources/picture/2016/04/onosBootcamp/0-IMG_20160416_155512_720.jpg)
@@ -65,8 +67,6 @@ excerpt: 我和ONOS酱：ONOS全球首届集训营冠军团队赛后分享
 ![ONOS-Hackathon-figure-2](/resources/picture/2016/04/onosBootcamp/2-ONOS-Hackathon-figure-2.jpg)
 
 <br />
-
-　　我们的项目[ONOS_OVS_Manager_Bootcamp2016](https://github.com/MaoJianwei/ONOS_OVS_Manager_Bootcamp2016)在 Github开源，希望与大家交流学习
 
 　　最后，要特别感谢ON.Lab的大牛讲师们，David，Madan，and other great teachers！
 

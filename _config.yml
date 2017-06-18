@@ -1,6 +1,6 @@
 # Site settings
 title: BigMao Radio Station
-maoHeader: SDN / NFV Learner
+maoHeader: SDN / NFV - Service Provider / Data Center Network - Software / Platform Architecture
 email: MaoJianwei2020@gmail.com
 myEngName: Jianwei Mao
 myName: 毛健炜
@@ -25,8 +25,8 @@ myGithubLink: https://github.com/MaoJianwei
 #   Google search results) and in your feed.xml site description.
 
 # baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://maojianwei.github.io # the base hostname & protocol for your site, backup maojianwei.github.io
-# url: http://www.maojianwei.com # the base hostname & protocol for your site, backup maojianwei.github.io
+# url: http://maojianwei.github.io # the base hostname & protocol for your site, backup maojianwei.github.io
+url: http://www.maojianwei.com # the base hostname & protocol for your site, backup maojianwei.github.io
 # twitter_username: jekyllrb
 github_username: MaoJianwei
 permalink: /:year/:month/:day/:title/
