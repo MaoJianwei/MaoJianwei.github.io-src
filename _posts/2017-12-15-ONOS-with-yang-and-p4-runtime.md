@@ -313,9 +313,9 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 　　第二，设备驱动功能。这个特别重要。这里面包含了这么几个要素：
 
 >　　　1. 是Pipeline’s Interpreter，转发表流水线的解释器，它主要做的是类型转换的工作，这个很重要，我们稍后会看到。
-
+>
 >　　　2. 是一个可选的FlowObjective’s Pipeliner，这个其实在OpenFlow中对应的也有。FlowRule是具体表示了一条转发表，而FlowObjective是我们想要达成的转发目标，FlowObjective是FlowRule的更高层的抽象。一个转发目标可能对应到一个特定设备上的多条流表。这个Pipeliner就负责进行FlowObjective到FlowRule的转换。
-
+>
 >　　　3. 是一个可选的PortStatisticsDiscovery。比方说，我们写的P4程序里对端口的数据收发做了统计，我们在控制器上需要读取这些统计值，那么我们就需要给它加一个PortStatisticsDiscovery，端口统计发现这样的驱动功能。这个是可选的。如果说我们就想做一个ping通的实验，不需要这个统计功能，那么OK，就省去了这块的功夫。
 
 　　第三，是设备平台相关的一些扩展。这些是P4程序编译后的产物，包括了BMv2 的JSON文件，Tofino的Binary固件，还有P4Info这个文件。其中P4Info很关键，它是在P4 Runtime中，把ID号和具体名字做映射的时候用的。
@@ -359,9 +359,9 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 　　PI框架里的流表操作涉及到三个阶段的转换操作，分别对应Pipeliner、Interpreter、P4Info这三个元素。也就是图中的蓝色部分，是我们pipeconf应用里的内容。
 
 >　　首先，如果我们是使用FlowObjective来下发决策，那么会经过Pipeliner，Pipeliner把它转换成FlowRule，当然我们也可以直接使用FlowRule。
-
+>
 >　　然后，P4设备驱动会调用PI框架的FlowRule Translation 子系统，借助Interpreter把FlowRule转换成PI Table Entry，它是PI框架对一条表项的抽象。
-
+>
 >　　最后PI Table Entry会在南向协议插件的P4Runtime Client中借助P4Info转换成P4 Runtime Message这个通信报文，然后在网络中传输给P4设备。
 
 　　
@@ -381,9 +381,9 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 　　
 
 > 　　首先，我们看右边。在OpenFlow里面我们也会用到图中的第一块，Packet Service，不同的是在下面，对接的是PI框架的Packet Provider，因为在P4里面，数据包的格式是我们自定义的，所以在这里借助我们的Interpreter进行数据包的解析。解析之后，生成Inbound/Outbound Packet，它们都是ONOS中原有的对packet-in/out的抽象。
-
+>
 > 　　接着，这里借助P4 Runtime设备驱动将其转换成PI Packet Operation，它是PI框架中对包操作的抽象。
-
+>
 > 　　最后，再通过南向插件与设备交互，在这里同样借助P4Info完成PI框架抽象对象与通信报文的转换。
 
 　　
@@ -398,15 +398,15 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 　　在介绍P4 Runtime的最后，我们来梳理一下，协议无关，我们需要做什么工作：
 
-> 　　首先，编写P4 程序；
+> * 　　首先，编写P4 程序；
 > 
-> 　　然后编译它，得到P4Info等文件；
+> * 　　然后编译它，得到P4Info等文件；
 > 
-> 　　然后再编写和编译Pipeconf应用，这时会自动把我们的P4Info、BMv2 JSON、Tofino Binary等相关的资源文件都打包进去；
+> * 　　然后再编写和编译Pipeconf应用，这时会自动把我们的P4Info、BMv2 JSON、Tofino Binary等相关的资源文件都打包进去；
 > 
-> 　　再然后，就是根据我们的业务需要，去编写网络控制应用，pipeline有感知的或者无感知的都行。当然，由于数据平面具有灵活的可编程性，编写ONOS应用这一步也可以被提到最前面。
+> * 　　再然后，就是根据我们的业务需要，去编写网络控制应用，pipeline有感知的或者无感知的都行。当然，由于数据平面具有灵活的可编程性，编写ONOS应用这一步也可以被提到最前面。
 > 
-> 　　最后，就请尽情享受ONOS给您带来的无限可能！
+> *　　最后，就请尽情享受ONOS给您带来的无限可能！
 
 <br />
 
