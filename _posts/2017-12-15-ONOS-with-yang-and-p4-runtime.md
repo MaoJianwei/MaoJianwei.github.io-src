@@ -35,7 +35,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 　　配合官方演讲视频学习，效果更佳：[https://v.qq.com/x/page/g05184tpwqb.html](https://v.qq.com/x/page/g05184tpwqb.html)
 
-　　演讲PPT下载： [Jianwei Mao - GNTC_2017 - ONOS with YANG and P4 Runtime](/resources/Document/Jianwei_Mao___GNTC_2017___ONOS_with_YANG_and_P4_Runtime.pdf) <br /><br />
+　　演讲PPT下载： [Jianwei Mao - GNTC 2017 - ONOS with YANG and P4 Runtime](/resources/Document/Jianwei_Mao___GNTC_2017___ONOS_with_YANG_and_P4_Runtime.pdf) <br /><br />
 
 <br />
 
@@ -74,15 +74,16 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
->　　针对运营商网络的需求，ONOS规定了这么四条设计原则：
+　　针对运营商网络的需求，ONOS规定了这么四条设计原则：
+
+> * 首要的是，高可用性，高可扩展性和高性能。这三点对运营商网络来说是尤为重要的。
 >
-> *　　首要的是，高可用性，高可扩展性和高性能。这三点对运营商网络来说是尤为重要的。
+> * 第二，要对网络资源进行高度抽象并简练地表示出来；
 >
-> *　　第二，要对网络资源进行高度抽象并简练地表示出来；
+> * 第三，要做到协议无关以及对特定设备的驱动功能的无关；
 >
-> *　　第三，要做到协议无关以及对特定设备的驱动功能的无关；
+> * 最后，是整个控制器系统的模块化，这一点保证了整个控制器软件架构的稳定性以及在支持新业务新需求方面的灵活性。
 >
-> *　　最后，是整个控制器系统的模块化，这一点保证了整个控制器软件架构的稳定性以及在支持新业务新需求方面的灵活性。
 
 <br />
 
@@ -105,6 +106,8 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 　　往上，依次是南向接口、核心层、北向接口，以及我们针对业务需求开发的网络控制应用，比如ARP代理、Segment Routing分段路由、SDN-IP这个SDN与传统网络对接的应用等等。
 
 　　核心层将各种网元设备与它们的转发表、统计信息等统一进行抽象，通过北向接口向应用提供这些信息，然后应用利用这些信息去进行业务决策，并通过北向接口把决策告诉给我们的ONOS。最后，核心层把决策解析成命令，通过南向接口适配到相应的协议插件上，最终将命令下发给特定的设备。
+
+　　
 
 　　其中，我们看到，核心层写着Distributed，分布式的，没错，ONOS天生就是一个分布式集群化的软件控制器，既可以单点部署，也可以多点集群部署。
 
@@ -407,15 +410,15 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 　　在介绍P4 Runtime的最后，我们来梳理一下，协议无关，我们需要做什么工作：
 
 > * 首先，编写P4 程序；
-> 
+> 　　
 > * 然后编译它，得到P4Info等文件；
-> 
+> 　　
 > * 然后再编写和编译Pipeconf应用，这时会自动把我们的P4Info、BMv2 JSON、Tofino Binary等相关的资源文件都打包进去；
-> 
+> 　　
 > * 再然后，就是根据我们的业务需要，去编写网络控制应用，pipeline有感知的或者无感知的都行。当然，由于数据平面具有灵活的可编程性，编写ONOS应用这一步也可以被提到最前面。
-> 
+> 　　
 > * 最后，就请尽情享受ONOS给您带来的无限可能！
->
+> 
 
 <br />
 
