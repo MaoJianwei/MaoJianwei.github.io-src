@@ -337,13 +337,18 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 　　在OpenFlow里面，通常我们是在设备上配好控制器的IP和端口号，然后设备上电以后主动连接控制器。
 
-　　那在PI架构里面，首先我们把编译好的pipeconf应用加载进ONOS，它会注册到PI架构的Pipeconf服务中去，
+　　那在PI架构里面：
 
-　　然后，我们有两种方式告诉ONOS我们有哪些设备，一种是提前在netcfg.json这个网络配置文件里写好设备P4 Runtime gRPC服务的IP、端口号、要用哪个pipeconf、使用哪个设备驱动等信息；另一种是动态地调用Rest API把这些信息传递给控制器。
+> * 首先，我们把编译好的pipeconf应用加载进ONOS，它会注册到PI架构的Pipeconf服务中去。
+>
+> * 然后，我们有两种方式告诉ONOS我们有哪些设备，一种是提前在netcfg.json这个网络配置文件里写好设备P4 Runtime gRPC服务的IP、端口号、要用哪个pipeconf、使用哪个设备驱动等信息；另一种是动态地调用Rest API把这些信息传递给控制器。
+>
+> 　　这些信息会传递给中间的General Device Provider，它会从Pipeconf service里面获取相应的pipeconf，并且绑定到相应的设备驱动上。
+>
+> * 最后，General Device Provider会去使用这个设备驱动跟P4设备建立连接，并且把pipeconf对应的P4程序给部署到P4设备中去。这里是P4程序动态部署的一步。
+>
 
-　　这些信息会传递给中间的General Device Provider，它会从Pipeconf service里面获取相应的pipeconf，并且绑定到相应的设备驱动上。
-
-　　最后，General Device Provider会去使用这个设备驱动跟P4设备建立连接，并且把pipeconf对应的P4程序给部署到P4设备中去。这里是P4程序动态部署的一步。
+　　
 
 　　经过上面这个流程，P4设备就在ONOS里正常上线了。
 
