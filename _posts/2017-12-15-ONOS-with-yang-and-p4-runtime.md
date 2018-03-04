@@ -111,6 +111,9 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 <br />
 
 　　集群部署时，虽然数据是分片冗余存储的，但是从业务逻辑和控制功能的角度上看，每一个节点都是完全相同，是互为冗余备份的。不同节点既可以分管多个设备，也可以负载均衡地去处理北向来的业务请求。如果有一个节点宕机，其他节点会自然接管工作。
+
+　　
+
 　　下面，我们把每一层展开，看一下。
 
 <br />
@@ -123,7 +126,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 　　特别要提一下的是第二行这个Driver设备驱动子系统。不同厂商、不同型号的设备能够支持的功能是不一样的，同一种功能在不同设备上的具体操作也有差异，这些device-specific特定于设备的东西，统统被隔离、囊括到Driver子系统里面去了，这样这些差异性就不会在整个系统里扩散。
 
-　　这个红色框里的每一个小方块，都遵从统一的子系统设计架构，大家请看。
+　　这个红色框里的每一个小方块，都遵从统一的子系统设计架构，大家请看：
 
 <br />
 
@@ -161,7 +164,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-　　首先，我们来看，什么是配置呢？我们把对设备的管理分为两个方面，控制和配置。控制指的是对流量的管理，偏向于OpenFlow，比如调整流表，读取流表或者端口的统计数据。而配置指的是对设备运行参数的管理，偏向于NetConf，比如设置一个端口up / down，配置路由协议的参数等等。
+　　首先，我们来看，什么是配置呢？我们把对设备的管理分为两个方面，控制和配置。控制指的是对流量的管理，偏向于OpenFlow，比如调整流表，读取流表或者端口的统计数据。而配置指的是对设备运行参数的管理，偏向于NetConf，比如设置一个端口 up / down，配置路由协议的参数等等。
 
 　　这其中，流量状态的改变是非常快的，在毫秒或者微秒级别。而配置信息的改变相对要慢得多，大概在分钟或者小时级别。
 
@@ -177,7 +180,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 　　我们知道，在之前的很长一段时间里，ONOS的南向插件主要就是OpenFlow和OVSDB，所以人们通常会认为ONOS是一个面向白盒设备的SDN解决方案。
 
-　　但现在，这一种认识已经被完全颠覆了，ONOS已经拥有了一套对传统设备的完整支持。
+　　**但现在，这一种认识已经被完全颠覆了，ONOS已经拥有了一套对传统设备的完整支持。**
 
 　　在协议接口方面，我们有YANG，有NETCONF，有RESTCONF。在信息管理和处理方面，我们有动态配置子系统，它是在ONOS的核心层横向扩展出来的，它的架构跟上述的子系统设计架构完全一样。
 
@@ -237,7 +240,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![20](/resources/picture/2017/12/onosYangP4/20.png)
+![21](/resources/picture/2017/12/onosYangP4/21.png)
 
 <br />
 
@@ -249,11 +252,11 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![21](/resources/picture/2017/12/onosYangP4/21.png)
+![22](/resources/picture/2017/12/onosYangP4/22.png)
 
 <br />
 
-![22](/resources/picture/2017/12/onosYangP4/22.png)
+![23](/resources/picture/2017/12/onosYangP4/23.png)
 
 <br />
 
@@ -269,7 +272,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![23](/resources/picture/2017/12/onosYangP4/23.png)
+![24](/resources/picture/2017/12/onosYangP4/24.png)
 
 <br />
 
@@ -279,7 +282,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![24](/resources/picture/2017/12/onosYangP4/24.png)
+![25](/resources/picture/2017/12/onosYangP4/25.png)
 
 <br />
 
@@ -293,7 +296,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![25](/resources/picture/2017/12/onosYangP4/25.png)
+![26](/resources/picture/2017/12/onosYangP4/26.png)
 
 <br />
 
@@ -313,7 +316,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![26](/resources/picture/2017/12/onosYangP4/26.png)
+![27](/resources/picture/2017/12/onosYangP4/27.png)
 
 <br />
 
@@ -337,7 +340,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![27](/resources/picture/2017/12/onosYangP4/27.png)
+![28](/resources/picture/2017/12/onosYangP4/28.png)
 
 <br />
 
@@ -355,7 +358,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![28](/resources/picture/2017/12/onosYangP4/28.png)
+![29](/resources/picture/2017/12/onosYangP4/29.png)
 
 <br />
 
@@ -373,7 +376,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![29](/resources/picture/2017/12/onosYangP4/29.png)
+![30](/resources/picture/2017/12/onosYangP4/30.png)
 
 <br />
 
@@ -391,11 +394,11 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![30](/resources/picture/2017/12/onosYangP4/30.png)
+![31](/resources/picture/2017/12/onosYangP4/31.png)
 
 <br />
 
-![31](/resources/picture/2017/12/onosYangP4/31.png)
+![32](/resources/picture/2017/12/onosYangP4/32.png)
 
 <br />
 
@@ -403,7 +406,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-![32](/resources/picture/2017/12/onosYangP4/32.png)
+![33](/resources/picture/2017/12/onosYangP4/33.png)
 
 <br />
 
