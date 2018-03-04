@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ONOS架构中的YANG、P4 Runtime（GNTC 2017演讲整理，附PPT下载）
+title: ONOS架构中的YANG、P4 Runtime（整理我在 GNTC 2017 的演讲，附PPT下载）
 date: 2017-12-15 19:00:00 +0800
 comments: true
 categories: SDN ONOS P4
