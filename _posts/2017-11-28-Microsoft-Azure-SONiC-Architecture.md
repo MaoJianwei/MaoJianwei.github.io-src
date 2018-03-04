@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microsoft Azure中的SONiC架构简析
-date: 2017-09-30 19:00:00 +0800
+date: 2017-11-28 19:00:00 +0800
 comments: true
 categories: SDN SONiC
 excerpt: Microsoft Azure中的SONiC架构简析
