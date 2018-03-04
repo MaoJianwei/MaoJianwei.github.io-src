@@ -29,9 +29,13 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 　　由于演讲时间的要求，讲解上有所侧重，如果有理解不清的地方，欢迎朋友们在社区里交流，也可以在文末留言评论，或给我发邮件。
 
+　　
+
 　　**排版上大体遵循讲解文字位于对应胶片下方的规则。**
 
 　　配合官方演讲视频学习，效果更佳：[https://v.qq.com/x/page/g05184tpwqb.html](https://v.qq.com/x/page/g05184tpwqb.html)
+
+　　演讲PPT下载： [Jianwei Mao - GNTC_2017 - ONOS with YANG and P4 Runtime](/resources/Document/Jianwei_Mao___GNTC_2017___ONOS_with_YANG_and_P4_Runtime.pdf) <br /><br />
 
 <br />
 
