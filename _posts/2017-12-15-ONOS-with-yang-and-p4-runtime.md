@@ -418,7 +418,7 @@ excerpt: ONOS架构中的YANG、P4 Runtime
 
 <br />
 
-　　最后希望大家能在ONOS社区里分享对ONOS的任何想法，贡献代码，提交项目，大家可以在ONOS 的wiki页面找到**邮件列表**与全球的伙伴们交流，也可以加入中文社区，**ONOS研究群（QQ群：454644351）**，还可以在SDNLAB网站上找到全面的ONOS相关资讯和技术文章。
+　　最后希望大家能在ONOS社区里分享对ONOS的任何想法，贡献代码，提交项目，大家可以在ONOS 的wiki页面找到 **[邮件列表](https://wiki.onosproject.org/display/ONOS/Mailing+Lists)** 与全球的伙伴们交流，也可以加入中文社区，**ONOS研究群（QQ群：454644351）**，还可以在SDNLAB网站上找到全面的ONOS相关资讯和技术文章。
 
 <br />
 
