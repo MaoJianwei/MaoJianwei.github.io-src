@@ -4,5 +4,19 @@
  * Inherit http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css
  * 
  */
-.mao-about-me{float: left; height: 50px; padding: 15px 15px; font-size: 18px; line-height: 20px;background-color: #222; border-color: #080808; color: #9d9d9d}
-.mao-about-me:focus, .mao-about-me:hover{text-decoration: none; color:#fff; background-color:transparent}
+.mao-about-me {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: #222;
+    border-color: #080808;
+    color: #337ab7
+}
+
+.mao-about-me:focus, .mao-about-me:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent
+}
