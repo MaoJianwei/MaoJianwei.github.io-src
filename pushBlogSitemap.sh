@@ -28,8 +28,8 @@ do
     DATE=$(date +"%Y-%m-%d")
     TIME=$(date +"%H:%M:%S")
 
-    echo ${DATE}"_"${TIME}","${pushResult} >> /home/mao/pushSitemap_log/${fileDomain}_${DATE}.csv
-    echo ${DATE}"_"${TIME}","${pushResult} >> /home/mao/NFS/pushSitemap_log/${fileDomain}_${DATE}.csv
+    #echo ${DATE}"_"${TIME}","${pushResult} >> /home/mao/pushSitemap_log/${fileDomain}_${DATE}.csv
+    #echo ${DATE}"_"${TIME}","${pushResult} >> /home/mao/NFS/pushSitemap_log/${fileDomain}_${DATE}.csv
     echo ${DATE}"_"${TIME}","${pushResult}
 
     # sleep 1

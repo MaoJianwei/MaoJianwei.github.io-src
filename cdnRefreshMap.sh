@@ -8,7 +8,7 @@ fi
 DOMAIN=$1
 IDENTIFY="."
 
-
+rm ./cdnRefreshMapAll.txt
 rm ./cdnRefreshMapFile.txt
 rm ./cdnRefreshMapDir.txt
 jekyll clean
@@ -18,6 +18,7 @@ jekyll build
 echo "Mao: build OK"
 
 cd "./_site/"
+ALL="../cdnRefreshMapAll.txt"
 FILE="../cdnRefreshMapFile.txt"
 DIR="../cdnRefreshMapDir.txt"
 
@@ -26,8 +27,10 @@ do
     LINK=${i:1}
     if [[ $LINK == *$IDENTIFY* ]]
     then
+        echo ${DOMAIN}${LINK} >> ${ALL}
         echo -e '"'"${DOMAIN}${LINK}"'"'',' >> ${FILE}
     else
+        echo -e ${DOMAIN}${LINK}'/' >> ${ALL}
         echo -e '"'"${DOMAIN}${LINK}/"'"'',' >> ${DIR}
     fi
 done

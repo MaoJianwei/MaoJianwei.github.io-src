@@ -2,6 +2,7 @@ rm MaoBlog.tar.gz
 
 ./cdnRefreshMap.sh "http://www.maojianwei.com"
 
+cp ./cdnRefreshMapAll.txt ./_site/
 cp ./cdnRefreshMapFile.txt ./_site/
 cp ./cdnRefreshMapDir.txt ./_site/
 
