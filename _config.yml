@@ -35,5 +35,5 @@ excerpt_separator: "\n\n\n"
 timezone: Asia/Shanghai
 highlighter: rouge
 # highlighter: false
-gems:
+plugins:
   - jekyll-sitemap
