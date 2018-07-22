@@ -39,6 +39,14 @@
       }
   });
 
+  $('img[src^="/resources/Music/keyboard/"]').each(function(){
+
+      // console.log($(this).attr("alt"));
+      if($(this).attr("class") != "avatar"){
+        $(this).wrap("<a href='" + $(this).attr('src') + "' target='_blank'></a>");
+      }
+  });
+
   function addBlankTargetForLinks () {
     $('a[href^="http"]').each(function(){
         $(this).attr('target', '_blank');
