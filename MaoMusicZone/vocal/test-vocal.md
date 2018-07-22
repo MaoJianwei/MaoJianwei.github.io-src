@@ -5,8 +5,8 @@ vocalName: test-vocal-vocal
 date: 2018-07-22 04:33:00 +0800
 
 comments: true
-categories: SDN ONOS P4
-excerpt: 毛：只需修改元数据部分，正文部分是模板
+categories: vocal
+excerpt: 毛：只需修改元数据部分，正文部分是歌词
 
 
 accompaniment: 青岛雷达
@@ -18,27 +18,93 @@ flacLink: /resources/Music/vocal/girl_me.flac
 mp3Link: /resources/Music/vocal/tear.mp3
 ---
 
-<table style="border-top: 0px solid #777; border-bottom: 0px solid #777; width: 100%;">
-	<td style="padding: 0px; width: 38.2%; text-align: center;">
-		<img src="{{ page.musicCover }}" title="{{ page.vocalName }}" style="width: auto;">
-	</td>
-	<td style="vertical-align: top; width:  61.8%; padding-right: 0px;">
-		<table style="border-top: 0px solid #777; border-bottom: 0px solid #777;">
-			<tr style="vertical-align: bottom;">
-				<blockquote>
-					<p><strong>伴奏曲：　{{ page.accompaniment }}</strong></p>
+# 歌 词
 
-					<p><strong>录制时间：{{ page.recordTime }}</strong></p>
+不曾那么有把握
 
-					<p><strong>录制场地：{{ page.recordPlace }}</strong></p>
-				</blockquote>
-			</tr>
-			<tr></tr>
-			<td style="vertical-align: middle;">无损音质 FLAC：</td>
-			<td><audio src="{{page.flacLink}}" controls="controls" loop="loop">您的浏览器不支持 H5 audio 标签。</audio></td>
-			<tr></tr>
-			<td style="vertical-align: middle;">兼容版本 MP3：</td>
-			<td><audio src="{{page.mp3Link}}" controls="controls" loop="loop">您的浏览器不支持 H5 audio 标签。</audio></td>
-		</table>
-	</td>	
-</table>
+再来一次还要闯这美丽的祸
+
+任天空被你霸道的哭声划破
+
+不啰嗦
+
+下好离手
+
+最后一次抱怨生活的苦然后
+
+得准备够多快乐让你挥霍
+
+世界再大再烂也轮不到你害怕
+
+在一起是最壮胆的方法
+
+哦亲爱的大头仔
+
+看你经过的左边右边上面下面
+
+全都被爱消毒一遍
+
+哦亲爱的大头仔
+
+有你搅和的昨天今天好的坏的
+
+全都可以打包纪念
+
+哪里来的骆驼客又珍贵又讨厌
+
+百般伺候还要舍得看你摔跤泪满面
+
+哪里来的迷你 me 教我砍掉重练
+
+不曾那么有把握
+
+再来一次还要闯这美丽的祸
+
+任天空被你霸道的哭声划破
+
+不啰嗦
+
+下好离手
+
+最后一次抱怨生活的苦然后
+
+得准备够多快乐让你挥霍
+
+人生再矛盾再累也轮不到我挣扎
+
+你熟睡的脸总是能解答
+
+哦亲爱的大头仔
+
+看你经过的左边右边上面下面
+
+全都被爱消毒一遍
+
+哦亲爱的大头仔
+
+有你搅和的昨天今天好的坏的
+
+倒霉恩典柴米油盐
+
+全都可以打包纪念
+
+哦亲爱的大头仔
+
+你可知你的妈妈爸爸阿公阿妈
+
+已经等你很久很久
+
+哦亲爱的大头仔
+
+看你经过的左边右边上面下面
+
+全都被爱消毒一遍
+
+哦亲爱的大头仔
+
+有你搅和的昨天今天好的坏的
+
+倒霉恩典柴米油盐
+
+全都可以打包纪念
+
