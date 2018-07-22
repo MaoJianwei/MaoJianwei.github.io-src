@@ -3,7 +3,7 @@ layout: post
 date: 软件发布站 - 主站
 title: 原创软件
 permalink: /MaoSoftware/
-icon: glyphicon-play
+icon: glyphicon-th-large
 
 noteTitle: 最新版本：1.3&#10;发布日期：2015.11.08
 faxTitle: 最新版本：1.0&#10;发布日期：2015.06.06
