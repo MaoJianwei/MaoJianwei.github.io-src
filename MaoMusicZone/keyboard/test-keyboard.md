@@ -9,9 +9,9 @@ categories: keyboard
 excerpt: 毛：只需修改元数据部分，正文部分是歌词/琴谱
 
 
-accompaniment: 青岛雷达
-recordTime: 2018-99-88
-recordPlace: 北邮绿茵操场
+accompaniment: 演奏曲：　青岛雷达
+recordTime: 录制时间：2018-88-88
+recordPlace: 键盘型号：YAMAHA KB-210
 
 musicCover: /resources/picture/music/test.jpg
 flacLink: /resources/Music/vocal/girl_me.flac
