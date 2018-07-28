@@ -2,7 +2,7 @@
 layout: default
 date: 软件发布站 - 主站
 title: 音乐发布
-permalink: /MaoMusicZone/
+permalink: /music/
 icon: glyphicon-play
 
 noteTitle: 最新版本：1.3&#10;发布日期：2015.11.08
@@ -26,7 +26,7 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 
       <div class="post-list-body">  
         <div class="all-posts" post-cate="All">
-          {% for vocalPage in site.pages %}
+          {% for vocalPage in site.music reversed %}
               {% if vocalPage.vocalName %}
                 <a class="post-list-item" href="{{ vocalPage.url | prepend: site.baseurl }}">
                   <h2>
@@ -48,7 +48,7 @@ mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 
       <div class="post-list-body">
         <div class="all-posts" post-cate="All">
-          {% for kbPage in site.pages %}
+          {% for kbPage in site.music reversed %}
               {% if kbPage.keyboardName %}
                 <a class="post-list-item" href="{{ kbPage.url | prepend: site.baseurl }}">
                   <h2>

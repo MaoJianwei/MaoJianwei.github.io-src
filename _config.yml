@@ -46,6 +46,6 @@ plugins:
 
 
 collections:
-  musics:
+  music:
     output: true
     # default is -> permalink: /:collection/:path/
