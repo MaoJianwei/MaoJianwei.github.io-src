@@ -29,12 +29,6 @@ myGithubLink: https://github.com/MaoJianwei
 #   Google search results) and in your feed.xml site description.
 
 
-collections:
-  musics:
-    output: true
-    # permalink: /:path/:title
-
-
 # baseurl: "" # the subpath of your site, e.g. /blog/
 #url: http://maojianwei.github.io # the base hostname & protocol for your site, backup maojianwei.github.io
 url: http://www.maojianwei.com # the base hostname & protocol for your site, backup maojianwei.github.io
@@ -51,3 +45,7 @@ plugins:
 
 
 
+collections:
+  musics:
+    output: true
+    # default is -> permalink: /:collection/:path/
