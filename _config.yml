@@ -28,6 +28,13 @@ myGithubLink: https://github.com/MaoJianwei
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
+
+collections:
+  musics:
+    output: true
+    # permalink: /:path/:title
+
+
 # baseurl: "" # the subpath of your site, e.g. /blog/
 #url: http://maojianwei.github.io # the base hostname & protocol for your site, backup maojianwei.github.io
 url: http://www.maojianwei.com # the base hostname & protocol for your site, backup maojianwei.github.io
@@ -41,3 +48,6 @@ highlighter: rouge
 # highlighter: false
 plugins:
   - jekyll-sitemap
+
+
+
