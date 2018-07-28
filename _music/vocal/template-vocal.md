@@ -2,7 +2,7 @@
 layout: music
 
 title: 盛 放
-vocalName: 盛 放
+no_vocalName: 盛 放
 date: 2018-07-28 09:30:00 +0800
 
 comments: true
