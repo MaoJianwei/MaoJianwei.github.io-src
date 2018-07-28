@@ -17,7 +17,7 @@ recordPlace: 录制场地：深圳
 musicCover: /resources/picture/music/sheng_fang.jpg
 flacLink: /resources/Music/vocal/sheng_fang.flac
 mp3Link: /resources/Music/vocal/sheng_fang.mp3
-flacMp3Size: 音乐大小：24.0 MB / 8.45 MB
+flacMp3Size: 音乐大小：24.1 MB / 8.45 MB
 ---
 
 # 歌 词
