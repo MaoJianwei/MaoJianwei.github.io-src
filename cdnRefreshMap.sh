@@ -1,7 +1,7 @@
 
 if [ $# != 1 ]
 then
-    echo 'usage: ./cdnRefreshMap.sh "http://www.maojianwei.com"'
+    echo 'usage: ./cdnRefreshMap.sh "https://www.maojianwei.com"'
     exit 1
 fi
 

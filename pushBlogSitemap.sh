@@ -5,7 +5,7 @@
 ######
 
 fileDomain="www.maojianwei.com"
-sitemap="http://www.maojianwei.com/sitemap.xml"
+sitemap="https://www.maojianwei.com/sitemap.xml"
 pushFile="/home/mao/BaiduPush.txt"
 
 while true
