@@ -24,7 +24,13 @@ flacMp3Size: 音乐大小：0 KB / 2.26 MB
 
 <br />
 
-演奏视频：[克罗地亚狂想曲_电子琴演奏_修改编曲_大毛 - 优酷](https://v.youku.com/v_show/id_XMjk4NzI4Nzk0OA==.html)（选择更高清画质，可避免音画不同步）
+演奏视频：[《克罗地亚狂想曲》弹奏 - 天高任毛飞 - 哔哩哔哩（投稿主站）](https://www.bilibili.com/video/av44708050/)
+
+（选择更高清画质，可避免音画不同步）
+
+<br />
+
+<iframe src="https://player.youku.com/embed/XMjk4NzI4Nzk0OA==" frameborder="no" allowfullscreen="true" width="100%" onload="this.height=this.scrollWidth*1080/1920+'px'"> </iframe>
 
 <br />
 
