@@ -2,7 +2,7 @@
 layout: music
 
 title: 陪我长大
-vocalName: 陪我长大
+vocalName: 陪我长大 - 段奥娟
 date: 2018-09-07 23:00:00 +0800
 
 comments: true

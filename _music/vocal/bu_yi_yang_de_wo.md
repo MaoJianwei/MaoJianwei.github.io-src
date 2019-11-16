@@ -2,7 +2,7 @@
 layout: music
 
 title: 不一样的我
-vocalName: 不一样的我
+vocalName: 不一样的我 - 七朵组合
 date: 2019-01-01 15:30:00 +0800
 
 comments: true

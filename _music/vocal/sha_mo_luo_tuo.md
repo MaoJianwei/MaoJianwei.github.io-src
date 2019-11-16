@@ -2,7 +2,7 @@
 layout: music
 
 title: 沙漠骆驼
-vocalName: 沙漠骆驼
+vocalName: 沙漠骆驼 - 展展与罗罗
 date: 2019-01-10 21:00:00 +0800
 
 comments: true
