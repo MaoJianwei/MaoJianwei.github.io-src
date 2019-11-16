@@ -12,7 +12,9 @@ sleepReminderTitle: 最新版本：1.0&#10;发布日期：2015.07.04
 mapTitle: 最新版本：1.0&#10;发布日期：2015.05.02
 ---
 <!-- <br /> -->
-<h3 style=" text-align:center;">My Software Style：Brief、Practical　简约、实用</h3>
+<h2 style=" text-align:center;">软件理念：简约、实用</h2>
+<h4 style=" text-align:center;">（服务器端软件、模块、框架，详见 <a href="{{ site.myGithubLink }}">GitHub</a>）</h4>
+
 <br />
 
 <div id="fall">
