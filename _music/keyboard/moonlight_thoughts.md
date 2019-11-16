@@ -2,7 +2,7 @@
 layout: music
 
 title: SING女团《寄明月》
-keyboardName: 寄明月
+keyboardName: 寄明月 - SING女团
 date: 2019-02-02 15:30:00 +0800
 
 comments: true
