@@ -10,4 +10,4 @@
 
 .
 
-工信部 ICP 备案号： [京ICP备17019309号](http://www.miitbeian.gov.cn/publish/query/indexFirst.action)
+工信部 ICP 备案号： [京ICP备17019309号](http://www.beian.miit.gov.cn)
