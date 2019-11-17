@@ -397,8 +397,6 @@ https://www.maojianwei.com/resources/Music/vocal/bu_yi_yang_de_wo.mp3
 https://www.maojianwei.com/static/
 https://www.maojianwei.com/static/js/
 https://www.maojianwei.com/static/js/index.js
-https://www.maojianwei.com/static/js/jquery-1.11.1.min.js
-https://www.maojianwei.com/static/js/bootstrap.min.js
 https://www.maojianwei.com/static/css/
 https://www.maojianwei.com/static/css/mao-bootstrap.min.css
 https://www.maojianwei.com/static/css/index.css
