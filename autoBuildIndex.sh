@@ -6,6 +6,9 @@ cp ./cdnRefreshMapAll.txt ./_site/
 cp ./cdnRefreshMapFile.txt ./_site/
 cp ./cdnRefreshMapDir.txt ./_site/
 
+cp ./_site/sitemap.xml ./
+
+
 rm ./_site/autoBuildIndex.sh
 rm ./_site/CNAME
 rm ./_site/cdnRefreshMap.sh
