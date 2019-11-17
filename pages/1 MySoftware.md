@@ -5,6 +5,8 @@ title: 原创软件
 permalink: /MaoSoftware/
 icon: glyphicon-th-large
 
+excerpt: 我的软件理念：简约、实用（服务器端软件、模块、框架，详见我的GitHub：MaoJianwei）
+
 noteTitle: 最新版本：1.3&#10;发布日期：2015.11.08
 faxTitle: 最新版本：1.0&#10;发布日期：2015.06.06
 fileTransFerTitle: 最新版本：1.0&#10;发布日期：2015.03.21

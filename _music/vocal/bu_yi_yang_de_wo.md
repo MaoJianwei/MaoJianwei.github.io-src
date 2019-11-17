@@ -7,7 +7,9 @@ date: 2019-01-01 15:30:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词
+excerpt: 不一样的我 (七朵组合三周年主题曲) - 七朵组合 (SevenSense)
+
+tips: 毛：只需修改元数据部分，正文部分是歌词
 
 
 accompaniment: 伴奏曲：　不一样的我 - 七朵组合

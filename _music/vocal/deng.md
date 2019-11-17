@@ -8,7 +8,9 @@ date: 2019-11-09 21:00:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词; 酷狗音乐 K歌; 全民K歌
+excerpt: 在风花雪月的夜看星星，再听听晚风浪漫的声音
+
+tips: 毛：只需修改元数据部分，正文部分是歌词; 酷狗音乐 K歌; 全民K歌
 
 
 accompaniment: 原唱曲：　等 - 边丽

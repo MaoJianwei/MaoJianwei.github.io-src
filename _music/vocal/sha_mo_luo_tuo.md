@@ -7,7 +7,9 @@ date: 2019-01-10 21:00:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词
+excerpt: 漫长人生旅途，花开花落无数，沸腾的时光怎能被荒芜
+
+tips: 毛：只需修改元数据部分，正文部分是歌词
 
 
 accompaniment: 伴奏曲：　沙漠骆驼 - 展展与罗罗

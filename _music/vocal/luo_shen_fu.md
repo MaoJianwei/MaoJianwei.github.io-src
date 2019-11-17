@@ -8,7 +8,9 @@ date: 2019-06-13 21:00:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词; 酷狗音乐 K歌; 全民K歌
+excerpt: 我 看见的 梦见的 遇见的 眷恋的 绚烂的，梦醒来 这一切 谁去演
+
+tips: 毛：只需修改元数据部分，正文部分是歌词; 酷狗音乐 K歌; 全民K歌
 
 
 accompaniment: 原唱曲：　洛神赋 - SING女团

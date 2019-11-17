@@ -7,7 +7,9 @@ date: 2018-12-30 22:00:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词
+excerpt: 一刀一剑一人驰骋天涯，风雨欲来由它，谁能称霸天下
+
+tips: 毛：只需修改元数据部分，正文部分是歌词
 
 
 accompaniment: 伴奏曲：　情剑 - 七朵组合

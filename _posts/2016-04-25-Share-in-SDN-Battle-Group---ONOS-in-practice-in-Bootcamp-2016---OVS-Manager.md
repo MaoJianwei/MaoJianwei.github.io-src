@@ -4,7 +4,7 @@ title: SDN实战团分享（二十二）：ONOS开发实战之OVS Manager (Bootc
 date: 2016-04-25 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: SDN实战团分享（二十一二）：ONOS开发实战之OVS Manager (Bootcamp 2016)
+excerpt: 今天我为大家带来一场ONOS实战分享，是我们小组在2016年ONOS Hackathon中的项目，OVS Manager。
 ---
 
 > **作者简介：{{ site.Resume }}**

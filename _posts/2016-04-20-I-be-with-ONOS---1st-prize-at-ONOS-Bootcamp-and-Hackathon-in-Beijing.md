@@ -4,7 +4,7 @@ title: 我和ONOS酱：ONOS全球首届集训营冠军团队赛后分享
 date: 2016-04-20 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: 我和ONOS酱：ONOS全球首届集训营冠军团队赛后分享
+excerpt: 很荣幸能够在老师的带领下，参加首届ONOS集训Hackathon，两天的讲授加两天的比赛，让我对ONOS的核心有了更深入的理解，对ONOS的发展现状有了更多的了解。
 ---
 
 > **作者简介：{{ site.Resume }}**

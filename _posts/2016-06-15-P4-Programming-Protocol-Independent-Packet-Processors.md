@@ -4,7 +4,7 @@ title: P4：编写协议无关的包处理器
 date: 2016-06-15 19:00:00 +0800
 comments: true
 categories: SDN P4
-excerpt: P4：编写协议无关的包处理器
+excerpt: P4是一门编写协议无关的包处理器的高级语言。
 ---
 
 > **作者简介：{{ site.Resume }}**

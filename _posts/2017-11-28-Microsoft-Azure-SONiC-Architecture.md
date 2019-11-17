@@ -4,7 +4,7 @@ title: Microsoft Azure中的SONiC架构简析
 date: 2017-11-28 19:00:00 +0800
 comments: true
 categories: SDN SONiC
-excerpt: Microsoft Azure中的SONiC架构简析
+excerpt: 学术界和工业界已经有各种方式能够实现数据平面可编程、数控分离集中控制，但还没有一个公开的清晰的方式来实现设备的控制平面可编程。SONiC可以说是瞄准了这个空白。
 ---
 
 > **作者简介：{{ site.Resume }}**

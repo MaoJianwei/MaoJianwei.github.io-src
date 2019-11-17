@@ -4,7 +4,7 @@ title: ONOS：负载均衡路由算法及应用开发（二）
 date: 2016-12-20 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: ONOS：负载均衡路由算法及应用开发（二）
+excerpt: 本文将为大家讲述应用的实现，并进行必要的代码分析。本项目开源在笔者的Github：ONOS_LoadBalance_Routing_Forward
 ---
 
 > **作者简介：{{ site.Resume }}**

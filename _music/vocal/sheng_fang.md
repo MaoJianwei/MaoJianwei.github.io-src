@@ -7,7 +7,9 @@ date: 2018-07-28 09:30:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词
+excerpt: 面朝大海去远航，回首脚下这一方土壤，永远永远永远初心不忘
+
+tips: 毛：只需修改元数据部分，正文部分是歌词
 
 
 accompaniment: 伴奏曲：　盛放 - 创造101 第10期

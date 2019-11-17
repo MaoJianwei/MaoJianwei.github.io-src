@@ -7,7 +7,9 @@ date: 2018-09-07 23:00:00 +0800
 
 comments: true
 categories: vocal
-excerpt: 毛：只需修改元数据部分，正文部分是歌词
+excerpt: 陪我长大 (《快把我哥带走》电影主题曲) - 段奥娟
+
+tips: 毛：只需修改元数据部分，正文部分是歌词
 
 
 accompaniment: 伴奏曲：　陪我长大 - 段奥娟

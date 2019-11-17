@@ -7,7 +7,9 @@ date: 2019-02-02 15:30:00 +0800
 
 comments: true
 categories: keyboard
-excerpt: 毛：只需修改元数据部分，正文部分是歌词/琴谱
+excerpt: SING女团《寄明月》弹奏 - 天高任毛飞
+
+tips: 毛：只需修改元数据部分，正文部分是歌词/琴谱
 
 
 accompaniment: 演奏曲：　SING女团《寄明月》

@@ -4,7 +4,7 @@ title: ONOS：从Device Subsystem看ONOS子系统设计（1）：Core层基本�
 date: 2017-03-24 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: ONOS：从Device Subsystem看ONOS子系统设计（1）：Core层基本功能架构
+excerpt: ONOS的内核是由诸多遵循同一架构设计的子系统组成的，Device Subsystem设备子系统就是其中重要的一员。笔者将借助其源码讲解ONOS Core层的架构设计。
 ---
 
 > **作者简介：{{ site.Resume }}**

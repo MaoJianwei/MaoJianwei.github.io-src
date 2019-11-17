@@ -4,7 +4,7 @@ title: ONOS 实战分享（一）：项目建立、调试到热部署
 date: 2015-11-24 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: ONOS 实战分享（一）：项目建立、调试到热部署
+excerpt: 本文将在Distributed Core Tier，以开发一个控制器内的模块为例，带领大家从项目的建立，导入IDE，编译构建，热部署，在线调试，最后到热迭代，走过一个项目的开发流程。
 ---
 
 > **作者简介：{{ site.Resume }}**

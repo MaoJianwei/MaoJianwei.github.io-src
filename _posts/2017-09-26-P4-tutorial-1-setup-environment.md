@@ -4,7 +4,7 @@ title: P4入门教程（1）：搭建开发和实验环境
 date: 2017-09-26 19:00:00 +0800
 comments: true
 categories: SDN P4
-excerpt: P4入门教程（1）：搭建开发和实验环境
+excerpt: 数据平面可编程，最大化地释放了网络的灵活可编程能力，在Telemetry网络管控、协议扩展、带状态的流量处理等方面都有很大的潜力有待发掘。这确实是个好的Idea。
 ---
 
 > **作者简介：{{ site.Resume }}**

@@ -4,7 +4,7 @@ title: 如何向ONOS社区贡献代码
 date: 2016-03-04 19:00:00 +0800
 comments: true
 categories: SDN ONOS
-excerpt: 如何向ONOS社区贡献代码
+excerpt: 笔者所在的实验室BUPT FNL在2015年成为ONOS在国内的第一个高校成员，因而有幸参与ONOS相关的研究与开发工作，本文是我根据自己一次成功提交代码的经历为大家梳理出来的详细步骤，希望能够为大家参与社区的代码开发提供帮助。
 ---
 
 > **作者简介：{{ site.Resume }}**

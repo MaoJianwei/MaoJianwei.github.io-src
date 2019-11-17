@@ -7,7 +7,9 @@ date: 2017-08-24 10:30:00 +0800
 
 comments: true
 categories: keyboard
-excerpt: 毛：只需修改元数据部分，正文部分是歌词/琴谱
+excerpt: 《克罗地亚狂想曲》弹奏 - 天高任毛飞
+
+tips: 毛：只需修改元数据部分，正文部分是歌词/琴谱
 
 
 accompaniment: 演奏曲：　克罗地亚狂想曲
