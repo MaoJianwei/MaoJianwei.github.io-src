@@ -1,7 +1,7 @@
 ---
 layout: music
 
-title: 盛 放
+title: 盛放
 vocalName: 盛放
 date: 2018-07-28 09:30:00 +0800
 

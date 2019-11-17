@@ -1,7 +1,7 @@
 ---
 layout: music
 
-title: 情 剑
+title: 情剑
 vocalName: 情剑 - 七朵组合
 date: 2018-12-30 22:00:00 +0800
 
