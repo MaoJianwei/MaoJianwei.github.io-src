@@ -5,7 +5,7 @@ title: 收藏资料
 permalink: /MaoFavorite/
 icon: glyphicon-star
 
-excerpt: 电子国风轻伴舞，唯我繁星少女组！关注微博 @SING女团 @天高任毛飞_大毛
+excerpt: 电子国风伴轻舞，唯我繁星少女组！关注微博 @SING女团 @天高任毛飞_大毛
 ---
 
 <div id="index" class="row">
