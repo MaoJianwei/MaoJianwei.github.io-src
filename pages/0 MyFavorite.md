@@ -44,8 +44,8 @@ excerpt: 电子国风伴轻舞，唯我繁星少女组！关注微博 @SING女�
 
 <script type="text/javascript">
     $.ajax({
-        // url:"{{ site.url }}/resources/Dynamic/MyFavorite.json",
-        url: "http://192.168.1.101:4000/resources/Dynamic/MyFavorite.json",
+        url:"{{ site.url }}/resources/Dynamic/MyFavorite.json",
+        // url: "http://192.168.1.101:4000/resources/Dynamic/MyFavorite.json",
         type: "GET",
         success: function (data) {
 
