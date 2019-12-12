@@ -115,6 +115,8 @@ https://www.maojianwei.com/README.md
 https://www.maojianwei.com/backupScript.html
 https://www.maojianwei.com/pushBlogSitemap.sh
 https://www.maojianwei.com/favicon.ico
+https://www.maojianwei.com/MaoFavorite/
+https://www.maojianwei.com/MaoFavorite/index.html
 https://www.maojianwei.com/resources/
 https://www.maojianwei.com/resources/picture/
 https://www.maojianwei.com/resources/picture/2015/
@@ -369,6 +371,8 @@ https://www.maojianwei.com/resources/Document/Jianwei_Mao___GNTC_2017___ONOS_wit
 https://www.maojianwei.com/resources/Document/OpenFlow_1.3_梳理总结_毛健炜_北邮.pdf
 https://www.maojianwei.com/resources/Document/毛健炜_北邮_2019简历.pdf
 https://www.maojianwei.com/resources/Document/P4_Programming_Protocol-Independent_Packet_Processors.pdf
+https://www.maojianwei.com/resources/Dynamic/
+https://www.maojianwei.com/resources/Dynamic/MyFavorite.json
 https://www.maojianwei.com/resources/Music/
 https://www.maojianwei.com/resources/Music/keyboard/
 https://www.maojianwei.com/resources/Music/keyboard/croatian_rhapsody/
