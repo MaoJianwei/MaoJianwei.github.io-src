@@ -6,6 +6,7 @@ body {
 	background-image: url(https://www.maojianwei.com/static/css/bg-canvas_bg.jpg);
 	/*background-image: url(https://maojianwei.github.io/static/css/bg-canvas_bg.jpg);*/
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
+    /*filter: grayscale(1);*/ /*Gray page for National Memorial Day*/
 }
 article p{
 	/*text-indent: 2em;*/
